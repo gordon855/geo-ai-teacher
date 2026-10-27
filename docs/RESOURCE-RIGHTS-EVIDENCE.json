@@ -1,0 +1,176 @@
+{
+  "checkedAt": "2026-10-27T05:48:49.898Z",
+  "verifiedOriginals": 192,
+  "fixtures": [
+    {
+      "path": "tests/fixtures/v215/wide.pptx",
+      "sha256": "82bfdd1911132605a98260260cfcbc6f0ef2481003d5479b40984fb856660d44",
+      "slides": 2,
+      "mediaEntries": [],
+      "embeddedFonts": [],
+      "creatorIsGenericGenerator": false,
+      "creatorFieldPresent": false,
+      "application": "Microsoft Macintosh PowerPoint",
+      "limitation": "Owner declaration plus inspected text-only fixture contents support retention; this does not authorize book illustrations in other PPTs.",
+      "ownerDeclaration": "Self-made PPT, declared by maintainer; some other PPTs contain book illustrations",
+      "recheck": {
+        "date": "2026-10-27",
+        "embedded": [],
+        "external": [],
+        "pictures": [],
+        "texts": [
+          {
+            "entry": "ppt/slides/slide1.xml",
+            "text": [
+              "Precision and accuracy 1"
+            ]
+          },
+          {
+            "entry": "ppt/slides/slide2.xml",
+            "text": [
+              "Precision and accuracy 2"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "tests/fixtures/v215/portrait.pptx",
+      "sha256": "37ed82110081f9255f5154563118501a52de5eef23690b6469a4284bc41c68a7",
+      "slides": 2,
+      "mediaEntries": [],
+      "embeddedFonts": [],
+      "creatorIsGenericGenerator": false,
+      "creatorFieldPresent": false,
+      "application": "Microsoft Macintosh PowerPoint",
+      "limitation": "Owner declaration plus inspected text-only fixture contents support retention; this does not authorize book illustrations in other PPTs.",
+      "ownerDeclaration": "Self-made PPT, declared by maintainer; some other PPTs contain book illustrations",
+      "recheck": {
+        "date": "2026-10-27",
+        "embedded": [],
+        "external": [],
+        "pictures": [],
+        "texts": [
+          {
+            "entry": "ppt/slides/slide1.xml",
+            "text": [
+              "Precision and accuracy 1"
+            ]
+          },
+          {
+            "entry": "ppt/slides/slide2.xml",
+            "text": [
+              "Precision and accuracy 2"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "vendor": [
+    {
+      "file": "LICENSE.txt",
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+      "matchesInstalledPackage": true
+    },
+    {
+      "file": "maplibre-gl-shared.mjs",
+      "sha256": "64e24fd71a28f597891c8b9b5ead9623aee0e20c0ff9e7e8e3fd9b3949c52407",
+      "matchesInstalledPackage": true
+    },
+    {
+      "file": "maplibre-gl-worker.mjs",
+      "sha256": "742ce5cfac9eb71015e0893e31b7c2bcffdc6e4bd186007a50eb721d693197b5",
+      "matchesInstalledPackage": true
+    }
+  ],
+  "modelFilesByExtension": [],
+  "assets": [
+    "docs/v21.1/preview/Avatar-Preview.html",
+    "public/avatar/README.md",
+    "public/avatar25d/teacher-base.svg",
+    "public/avatar25d/teacher-blink-source.svg",
+    "public/avatar25d/teacher-gesture-emphasis.svg",
+    "public/avatar25d/teacher-gesture-open-palm.svg",
+    "public/avatar25d/teacher-gesture-two-hands.svg",
+    "public/avatar25d/teacher-mouth-a-source.svg",
+    "public/avatar25d/teacher-mouth-ei-source.svg",
+    "public/avatar25d/teacher-mouth-fv-source.svg",
+    "public/avatar25d/teacher-mouth-ln-source.svg",
+    "public/avatar25d/teacher-mouth-o-source.svg",
+    "public/favicon.svg",
+    "public/file.svg",
+    "public/globe.svg",
+    "public/images/digital-teacher-step7-trimmed.svg",
+    "public/next.svg",
+    "public/training/grand-canyon-topographic.svg",
+    "public/training/mount-st-helens-relief.svg",
+    "public/v16/ai-teacher.svg",
+    "public/v16/brand-logo.svg",
+    "public/v16/grand-canyon-topographic.svg",
+    "public/v16/lidar-point-cloud.svg",
+    "public/v16/mount-st-helens-relief.svg",
+    "public/vendor/maplibre/6.7.0/LICENSE.txt",
+    "public/vendor/maplibre/6.7.0/maplibre-gl-shared.mjs",
+    "public/vendor/maplibre/6.7.0/maplibre-gl-worker.mjs",
+    "public/vendor/maplibre/6.7.0/probe.mjs",
+    "public/vercel.svg",
+    "public/window.svg",
+    "tests/fixtures/v215/portrait.pptx",
+    "tests/fixtures/v215/wide.pptx"
+  ],
+  "dataEvidence": [
+    {
+      "path": "lib/cloud/knowledge-chunks.jsonl.gz.b64",
+      "sha256": "af29e504aa94a8db758455efc169bd8edf7aafaa0d564ac97abef0445ec99508",
+      "label": "Demo replacement; ownership cannot be established by the label alone"
+    },
+    {
+      "path": "lib/step20/bank.json",
+      "sha256": "afde6bb357de78255aad8824797d80a9c2e867f82059b76d0ac1635d7bcb311e",
+      "label": "Demo replacement; ownership cannot be established by the label alone"
+    },
+    {
+      "path": "lib/step20-1/course-bank.json",
+      "sha256": "dcfc8d20167e1a3359244ff210e8123063e23661e84b8bf8675776d92c01e541",
+      "label": "Demo replacement; ownership cannot be established by the label alone"
+    },
+    {
+      "path": "lib/step10/textbook-highlights.json",
+      "sha256": "532e9f4ddeee3a15ae71ad4b00ed5325e4a6c9d3984477e28b10c8ec553d880c",
+      "label": "Demo replacement; ownership cannot be established by the label alone"
+    },
+    {
+      "path": "lib/step21/ppt-pages.json",
+      "sha256": "44af0f2376c116ff311799f657972ef107287ca0c80eb0a451ef41de76fb05f2",
+      "label": "Demo replacement; ownership cannot be established by the label alone"
+    }
+  ],
+  "agreementFilenameMatches": [],
+  "scope": "Working-copy file and archive metadata only. No ownership inferred from labels, filenames or absent media. No private original content disclosed.",
+  "localGenerationEvidence": [
+    ".audit/prepare.py",
+    ".audit/demo-content-finish.py"
+  ],
+  "templateSvgFollowup": {
+    "checkedAt": "2026-10-27",
+    "evidence": "TEMPLATE-SVG-LICENSE-EVIDENCE.json",
+    "exactMatches": 4,
+    "singleCoordinateDifference": 1,
+    "faviconOrigin": "Maintainer confirmed personal/AI-assisted creation",
+    "scope": "Official template evidence is retained separately from the maintainer favicon declaration."
+  },
+  "ownerConfirmation": {
+    "date": "2026-10-27",
+    "name": "郭沛高",
+    "copyrightYear": 2026,
+    "authorship": "Personal development with AI assistance, declared by maintainer",
+    "institutionalRights": "Personal independent project; no relevant agreement, declared by maintainer",
+    "approvedProjectLicense": "Apache-2.0",
+    "favicon": "Personal/AI-assisted creation confirmed by maintainer",
+    "localAvatarAdapters": "AI-assisted development, declared by maintainer",
+    "originalGitHistory": "None; originally a file copy, declared by maintainer",
+    "publicationAuthorized": false,
+    "scope": "Project-owned code, documentation and demo content; third-party terms retained; book illustrations/private originals/models/prebuilt images excluded."
+  }
+}

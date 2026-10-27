@@ -1,0 +1,61 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: geoai_demo
+      POSTGRES_USER: geoai_demo
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run npm run demo:setup}
+    volumes:
+      - demo_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U geoai_demo -d geoai_demo']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    networks: [database]
+  app:
+    build: .
+    init: true
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      DEMO_MODE: '1'
+      DATABASE_URL: postgresql://geoai_demo:${POSTGRES_PASSWORD:?Run npm run demo:setup}@postgres:5432/geoai_demo
+      STORAGE_DRIVER: local
+      LOCAL_STORAGE_PATH: /app/.data/storage
+      SECURITY_TRUST_PROXY: '0'
+      CLASSROOM_PUBLIC_ORIGIN: ${CLASSROOM_PUBLIC_ORIGIN:-http://localhost:3000}
+      ROOT_DOMAIN: ${ROOT_DOMAIN:-localhost}
+      WWW_DOMAIN: ${WWW_DOMAIN:-localhost}
+      CLASSROOM_ADMIN_USERNAME: ${CLASSROOM_ADMIN_USERNAME:-demo_teacher}
+      CLASSROOM_ADMIN_NAME: ${CLASSROOM_ADMIN_NAME:-Demo Teacher}
+      CLASSROOM_ADMIN_PASSWORD: ${CLASSROOM_ADMIN_PASSWORD:?Run npm run demo:setup}
+      DEMO_STUDENT_PASSWORD: ${DEMO_STUDENT_PASSWORD:?Run npm run demo:setup}
+      APP_ENCRYPTION_KEY: ${APP_ENCRYPTION_KEY:?Run npm run demo:setup}
+      SITE_PRIVACY_CONTACT: ${SITE_PRIVACY_CONTACT:-Local demo administrator}
+      DASHSCOPE_API_KEY: ${DASHSCOPE_API_KEY:-}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      LIVEAVATAR_API_KEY: ${LIVEAVATAR_API_KEY:-}
+      OAC_ENABLED: ${OAC_ENABLED:-0}
+      OAC_LITEAVATAR_URL: ${OAC_LITEAVATAR_URL:-}
+      OAC_LAM_URL: ${OAC_LAM_URL:-}
+      OAC_BRIDGE_KEY: ${OAC_BRIDGE_KEY:-}
+    ports: ['127.0.0.1:3000:3000']
+    volumes:
+      - demo_uploads:/app/.data/storage
+    healthcheck:
+      test: [CMD, node, -e, "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 8s
+      retries: 12
+      start_period: 60s
+    networks: [database, outbound]
+volumes:
+  demo_postgres:
+  demo_uploads:
+networks:
+  database:
+    internal: true
+  outbound:

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "package_version": "SMARTQA20260802-v1.0",
+  "endpoint": {
+    "path": "/api/chat",
+    "health_path": "/api/health",
+    "runtime": "nodejs",
+    "max_duration_seconds": 60
+  },
+  "index": {
+    "provider": "alibaba-cloud-model-studio",
+    "region": "cn-beijing",
+    "embedding_model": "text-embedding-v4",
+    "dimensions": 1024,
+    "expected_chunks": 54,
+    "excluded_page_ids": []
+  },
+  "request": {
+    "max_body_bytes": 32768,
+    "min_question_characters": 2,
+    "max_question_characters": 4000,
+    "max_history_messages": 6,
+    "max_history_characters_per_message": 1200,
+    "max_history_total_characters": 4000
+  },
+  "retrieval": {
+    "top_k": 8,
+    "max_context_sources": 6,
+    "max_characters_per_source": 2600,
+    "max_context_characters": 15000,
+    "semantic_weight": 0.88,
+    "lexical_weight": 0.12,
+    "minimum_score": 0.46,
+    "minimum_semantic_score": 0.35,
+    "minimum_borderline_lexical_score": 0.04,
+    "semantic_only_pass_score": 0.56,
+    "high_confidence_score": 0.64,
+    "medium_confidence_score": 0.54,
+    "query_instruct": "Given a bilingual surveying professional English course question, retrieve passages that directly answer it, including terminology, verbatim textbook wording, translation, surveying principles, syllabus rules, or teaching schedule.",
+    "original_body_bonus": 0.24,
+    "original_glossary_penalty": 0.26,
+    "exact_term_bonus": 0.16,
+    "requested_unit_bonus": 0.08,
+    "neighbor_page_radius": 3
+  },
+  "generation": {
+    "model": "qwen-plus",
+    "temperature": 0.1,
+    "max_tokens": 1200,
+    "max_answer_characters": 8000,
+    "max_format_attempts": 2
+  },
+  "protection": {
+    "concurrency": 1,
+    "max_queue_length": 3,
+    "queue_timeout_ms": 20000,
+    "rate_limit_requests": 8,
+    "rate_limit_window_ms": 60000,
+    "request_timeout_ms": 55000,
+    "upstream_timeout_ms": 35000,
+    "upstream_max_attempts": 2
+  },
+  "corpus": {
+    "step2_root": "data/processed/步骤2_带页码小文件_PC20260801-v1.0",
+    "pages_index": "04_结构化索引/pages.jsonl",
+    "units_index": "04_结构化索引/units.json",
+    "expected_textbook_pages": 384,
+    "expected_units": 54
+  },
+  "original_answer": {
+    "max_passage_characters": 1800,
+    "sentences_after_anchor": 4,
+    "minimum_passage_characters": 80
+  },
+  "quiz": {
+    "endpoint": "/api/quiz",
+    "minimum_count": 1,
+    "maximum_count": 10,
+    "default_count": 5,
+    "candidate_sources": 6,
+    "max_context_characters": 15000,
+    "session_ttl_ms": 1800000,
+    "max_active_sessions": 100,
+    "generation_max_attempts": 2,
+    "generation_temperature": 0.35,
+    "generation_max_tokens": 2600,
+    "focuses": [
+      "mixed",
+      "vocabulary",
+      "concept"
+    ]
+  },
+  "authority": {
+    "knowledge": [
+      "textbook"
+    ],
+    "course_rules": [
+      "syllabus"
+    ],
+    "schedule": [
+      "schedule"
+    ],
+    "teaching": [
+      "lesson_plan",
+      "slides"
+    ]
+  }
+}

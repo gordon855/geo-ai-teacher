@@ -1,0 +1,49 @@
+name: Verify 21.7
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['22.13.0', '22', '24']
+    env:
+      SKIP_MAINLAND_RUNTIME: '1'
+      NEXT_TELEMETRY_DISABLED: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+          cache: npm
+      - run: npm ci
+      - run: npm audit --audit-level=moderate
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run test
+      - run: npm run build
+      - run: node scripts/audit-release.mjs
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/demo-setup.mjs
+      - run: docker compose config --quiet
+      - run: docker compose up --build --wait --wait-timeout 300
+      - run: node --env-file=.env scripts/demo-http-smoke.mjs
+      - name: Exercise real PostgreSQL and storage
+        env:
+          GEOAI_INTEGRATION_TEST: '1'
+        run: node --env-file=.env scripts/demo-integration.mjs seed
+      - run: docker compose stop
+      - run: docker compose up --wait --wait-timeout 180
+      - name: Verify restart persistence
+        env:
+          GEOAI_INTEGRATION_TEST: '1'
+        run: node --env-file=.env scripts/demo-integration.mjs verify
+      - if: always()
+        run: docker compose down

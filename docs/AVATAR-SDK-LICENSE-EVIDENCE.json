@@ -1,0 +1,350 @@
+{
+  "checkedAt": "2026-10-27",
+  "package": "lm-avatar-chat-sdk",
+  "version": "1.1.4",
+  "packageLicense": "ISC",
+  "topLevelLicenseOrNoticePresent": false,
+  "distribution": "Not vendored in the source-only candidate; npm dependency retained. Compiled browser bundles/images would contain implementation and require their own complete notice review.",
+  "bundles": [
+    {
+      "path": "node_modules/lm-avatar-chat-sdk/lmAvatarChat.js",
+      "bytes": 4943211,
+      "sha256": "9a962e6826d14e0f1b3649145b8eebe72bbec7ea029ed8ebbd43d6209c0db122",
+      "observations": [
+        {
+          "firstLine": 24240,
+          "text": "* Copyright 2010-2025 Three.js Authors",
+          "occurrences": 3
+        },
+        {
+          "firstLine": 53755,
+          "text": "* Copyright 2020 Google LLC. All Rights Reserved.",
+          "occurrences": 349
+        },
+        {
+          "firstLine": 54142,
+          "text": "* Copyright 2017 Google LLC. All Rights Reserved.",
+          "occurrences": 47
+        },
+        {
+          "firstLine": 54292,
+          "text": "* Copyright 2018 Google LLC. All Rights Reserved.",
+          "occurrences": 163
+        },
+        {
+          "firstLine": 54314,
+          "text": "* Copyright 2019 Google LLC. All Rights Reserved.",
+          "occurrences": 69
+        },
+        {
+          "firstLine": 54356,
+          "text": "* Copyright 2023 Google LLC.",
+          "occurrences": 52
+        },
+        {
+          "firstLine": 54375,
+          "text": "* Copyright 2021 Google LLC. All Rights Reserved.",
+          "occurrences": 158
+        },
+        {
+          "firstLine": 58462,
+          "text": "* Copyright 2022 Google LLC. All Rights Reserved.",
+          "occurrences": 36
+        },
+        {
+          "firstLine": 60539,
+          "text": "* Copyright 2022 Google LLC.",
+          "occurrences": 51
+        },
+        {
+          "firstLine": 71312,
+          "text": "* Copyright 2023 Google LLC. All Rights Reserved.",
+          "occurrences": 19
+        }
+      ],
+      "licenseMarkers": 960,
+      "embeddedAxios0214Metadata": true,
+      "limitation": "Observed markers only; minified long lines are not reproduced and the full component graph has not been established.",
+      "axiosMetadata": {
+        "firstLine": 11377,
+        "declaredName": "axios",
+        "declaredVersion": "0.21.4",
+        "declaredLicense": "MIT",
+        "scope": "Embedded JSON metadata, not an independent byte match of all axios implementation code."
+      },
+      "googleApacheHeader": {
+        "firstLine": 53755,
+        "excerpt": " * Copyright 2020 Google LLC. All Rights Reserved.\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,"
+      }
+    },
+    {
+      "path": "node_modules/lm-avatar-chat-sdk/lmAvatarChat.umd.cjs",
+      "bytes": 3884111,
+      "sha256": "65ad092eed110e397b87466cae864e2a12b4c71fe00ea0ea15d3107e65925c2d",
+      "observations": [
+        {
+          "firstLine": 433,
+          "text": "* Copyright 2010-2025 Three.js Authors",
+          "occurrences": 3
+        },
+        {
+          "firstLine": 4408,
+          "text": "* Copyright 2020 Google LLC. All Rights Reserved.",
+          "occurrences": 349
+        },
+        {
+          "firstLine": 4438,
+          "text": "* Copyright 2017 Google LLC. All Rights Reserved.",
+          "occurrences": 47
+        },
+        {
+          "firstLine": 4468,
+          "text": "* Copyright 2018 Google LLC. All Rights Reserved.",
+          "occurrences": 163
+        },
+        {
+          "firstLine": 4483,
+          "text": "* Copyright 2019 Google LLC. All Rights Reserved.",
+          "occurrences": 69
+        },
+        {
+          "firstLine": 4498,
+          "text": "* Copyright 2023 Google LLC.",
+          "occurrences": 52
+        },
+        {
+          "firstLine": 4513,
+          "text": "* Copyright 2021 Google LLC. All Rights Reserved.",
+          "occurrences": 158
+        },
+        {
+          "firstLine": 5598,
+          "text": "* Copyright 2022 Google LLC. All Rights Reserved.",
+          "occurrences": 36
+        },
+        {
+          "firstLine": 6833,
+          "text": "* Copyright 2022 Google LLC.",
+          "occurrences": 51
+        },
+        {
+          "firstLine": 9269,
+          "text": "* Copyright 2023 Google LLC. All Rights Reserved.",
+          "occurrences": 19
+        }
+      ],
+      "licenseMarkers": 960,
+      "embeddedAxios0214Metadata": true,
+      "limitation": "Observed markers only; minified long lines are not reproduced and the full component graph has not been established.",
+      "axiosMetadata": {
+        "firstLine": 142,
+        "declaredName": "axios",
+        "declaredVersion": "0.21.4",
+        "declaredLicense": "MIT",
+        "scope": "Embedded JSON metadata, not an independent byte match of all axios implementation code."
+      },
+      "googleApacheHeader": {
+        "firstLine": 4408,
+        "excerpt": " * Copyright 2020 Google LLC. All Rights Reserved.\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,"
+      }
+    },
+    {
+      "path": "node_modules/lm-avatar-chat-sdk/lmCloudAvatarChat.js",
+      "bytes": 2044583,
+      "sha256": "241ba28ac6a94c479a745f3c6188c2c355b5d299ad5a52fe657924deb68356cb",
+      "observations": [
+        {
+          "firstLine": 24125,
+          "text": "* Copyright 2010-2025 Three.js Authors",
+          "occurrences": 2
+        }
+      ],
+      "licenseMarkers": 2,
+      "embeddedAxios0214Metadata": true,
+      "limitation": "Observed markers only; minified long lines are not reproduced and the full component graph has not been established.",
+      "axiosMetadata": {
+        "firstLine": 11330,
+        "declaredName": "axios",
+        "declaredVersion": "0.21.4",
+        "declaredLicense": "MIT",
+        "scope": "Embedded JSON metadata, not an independent byte match of all axios implementation code."
+      },
+      "googleApacheHeader": null
+    },
+    {
+      "path": "node_modules/lm-avatar-chat-sdk/lmCloudAvatarChat.umd.cjs",
+      "bytes": 1555505,
+      "sha256": "f0d1661f094469e494f34f303c2abe09a9f57659a40eac3bd15d7fc4a987cc76",
+      "observations": [
+        {
+          "firstLine": 433,
+          "text": "* Copyright 2010-2025 Three.js Authors",
+          "occurrences": 2
+        }
+      ],
+      "licenseMarkers": 2,
+      "embeddedAxios0214Metadata": true,
+      "limitation": "Observed markers only; minified long lines are not reproduced and the full component graph has not been established.",
+      "axiosMetadata": {
+        "firstLine": 142,
+        "declaredName": "axios",
+        "declaredVersion": "0.21.4",
+        "declaredLicense": "MIT",
+        "scope": "Embedded JSON metadata, not an independent byte match of all axios implementation code."
+      },
+      "googleApacheHeader": null
+    },
+    {
+      "path": "node_modules/lm-avatar-chat-sdk/lmLocalAvatarChat.js",
+      "bytes": 4896022,
+      "sha256": "12b85d02d906e1594dddfc3f0441a4c36e1888a7cac7314196fbe8d863b16703",
+      "observations": [
+        {
+          "firstLine": 28879,
+          "text": "* Copyright 2010-2025 Three.js Authors",
+          "occurrences": 3
+        },
+        {
+          "firstLine": 52177,
+          "text": "* Copyright 2020 Google LLC. All Rights Reserved.",
+          "occurrences": 349
+        },
+        {
+          "firstLine": 52564,
+          "text": "* Copyright 2017 Google LLC. All Rights Reserved.",
+          "occurrences": 47
+        },
+        {
+          "firstLine": 52714,
+          "text": "* Copyright 2018 Google LLC. All Rights Reserved.",
+          "occurrences": 163
+        },
+        {
+          "firstLine": 52736,
+          "text": "* Copyright 2019 Google LLC. All Rights Reserved.",
+          "occurrences": 69
+        },
+        {
+          "firstLine": 52778,
+          "text": "* Copyright 2023 Google LLC.",
+          "occurrences": 52
+        },
+        {
+          "firstLine": 52797,
+          "text": "* Copyright 2021 Google LLC. All Rights Reserved.",
+          "occurrences": 158
+        },
+        {
+          "firstLine": 56884,
+          "text": "* Copyright 2022 Google LLC. All Rights Reserved.",
+          "occurrences": 36
+        },
+        {
+          "firstLine": 58961,
+          "text": "* Copyright 2022 Google LLC.",
+          "occurrences": 51
+        },
+        {
+          "firstLine": 69734,
+          "text": "* Copyright 2023 Google LLC. All Rights Reserved.",
+          "occurrences": 19
+        }
+      ],
+      "licenseMarkers": 960,
+      "embeddedAxios0214Metadata": true,
+      "limitation": "Observed markers only; minified long lines are not reproduced and the full component graph has not been established.",
+      "axiosMetadata": {
+        "firstLine": 11377,
+        "declaredName": "axios",
+        "declaredVersion": "0.21.4",
+        "declaredLicense": "MIT",
+        "scope": "Embedded JSON metadata, not an independent byte match of all axios implementation code."
+      },
+      "googleApacheHeader": {
+        "firstLine": 52177,
+        "excerpt": " * Copyright 2020 Google LLC. All Rights Reserved.\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,"
+      }
+    },
+    {
+      "path": "node_modules/lm-avatar-chat-sdk/lmLocalAvatarChat.umd.cjs",
+      "bytes": 3846605,
+      "sha256": "2c59f60387dbc2bf3e6caf86bd9a055166e368d3871875f7afffef221bf2616f",
+      "observations": [
+        {
+          "firstLine": 301,
+          "text": "* Copyright 2010-2025 Three.js Authors",
+          "occurrences": 3
+        },
+        {
+          "firstLine": 4131,
+          "text": "* Copyright 2020 Google LLC. All Rights Reserved.",
+          "occurrences": 349
+        },
+        {
+          "firstLine": 4161,
+          "text": "* Copyright 2017 Google LLC. All Rights Reserved.",
+          "occurrences": 47
+        },
+        {
+          "firstLine": 4191,
+          "text": "* Copyright 2018 Google LLC. All Rights Reserved.",
+          "occurrences": 163
+        },
+        {
+          "firstLine": 4206,
+          "text": "* Copyright 2019 Google LLC. All Rights Reserved.",
+          "occurrences": 69
+        },
+        {
+          "firstLine": 4221,
+          "text": "* Copyright 2023 Google LLC.",
+          "occurrences": 52
+        },
+        {
+          "firstLine": 4236,
+          "text": "* Copyright 2021 Google LLC. All Rights Reserved.",
+          "occurrences": 158
+        },
+        {
+          "firstLine": 5321,
+          "text": "* Copyright 2022 Google LLC. All Rights Reserved.",
+          "occurrences": 36
+        },
+        {
+          "firstLine": 6556,
+          "text": "* Copyright 2022 Google LLC.",
+          "occurrences": 51
+        },
+        {
+          "firstLine": 8992,
+          "text": "* Copyright 2023 Google LLC. All Rights Reserved.",
+          "occurrences": 19
+        }
+      ],
+      "licenseMarkers": 960,
+      "embeddedAxios0214Metadata": true,
+      "limitation": "Observed markers only; minified long lines are not reproduced and the full component graph has not been established.",
+      "axiosMetadata": {
+        "firstLine": 142,
+        "declaredName": "axios",
+        "declaredVersion": "0.21.4",
+        "declaredLicense": "MIT",
+        "scope": "Embedded JSON metadata, not an independent byte match of all axios implementation code."
+      },
+      "googleApacheHeader": {
+        "firstLine": 4131,
+        "excerpt": " * Copyright 2020 Google LLC. All Rights Reserved.\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,"
+      }
+    }
+  ],
+  "remaining": [
+    "Obtain the publisher copyright/ISC notice and complete bundled component notice set before redistribution of compiled output.",
+    "Embedded component versions can be absent from package-lock.json; a zero npm audit result is not a complete bundle vulnerability assessment."
+  ],
+  "serverOnly": {
+    "package": "server-only@0.0.1",
+    "declaredLicense": "MIT",
+    "topLevelLicenseFilePresent": false,
+    "sourceOnlyStatus": "Reference retained; no implementation or invented copyright notice added to this source release."
+  }
+}

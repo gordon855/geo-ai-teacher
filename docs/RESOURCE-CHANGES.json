@@ -1,0 +1,962 @@
+[
+  {
+    "path": "app/filing/page.tsx",
+    "originalSha256": "a0e22ff81e07ca973f276f74841f9ccb9380f9a45a7ed93097b4d7f0c8dbe069",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/avatar/photo-avatar-stage.tsx",
+    "originalSha256": "23d2c907519d93a7ffb87a86becc610eade885b5cb3035ce99ffa40bc40f9fee",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/classroom-platform.tsx",
+    "originalSha256": "cc6805400afd91e84e66febbea50b1048f965a541b8de37e34e11b8c70c344d8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/classroom/login-panel.tsx",
+    "originalSha256": "0cfe74286f3cc1c5383b252aefb7a86c4f52b147c387ab5a84c943322b744ea9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/classroom/student-dashboard.tsx",
+    "originalSha256": "cee2af9f3c45bda48c04b2717558ad4332cb5ce530fc7a35a641e6bf397f54ea",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/classroom/teacher-dashboard.tsx",
+    "originalSha256": "d595326a319d980f791756765e28400fb4a50d1cdcd766a2fd0ce3eb7f768066",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/student-portal.tsx",
+    "originalSha256": "51f9e02b73413fbb8c2f2940752963f3aaf2f7280c6ca2709055a5080f910bc8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "components/v172/training-hubs.tsx",
+    "originalSha256": "f2b11566124b40c3750de507855ea404db0faad083919b477d0ce179c8301f0f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "config/step14.env.example",
+    "originalSha256": "255f8b62adf25a528a487d14d165c8d25d595195df41bf1227d59867c7b2e816",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "config/step15.env.example",
+    "originalSha256": "d4cd84623789b489809f921062aa46463f705083b32e192139b58784df955fbf",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "config/step17.env.example",
+    "originalSha256": "ca54f99b2ede481453575c76b4e9aef524726998152923fd680e9bf4351f3bb5",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar213/install.py",
+    "originalSha256": "ebccc28490f5fc2249863a3dc3056603de7c8c516786b18ab77b4bd7fd9cf3b8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar214/install.py",
+    "originalSha256": "ebccc28490f5fc2249863a3dc3056603de7c8c516786b18ab77b4bd7fd9cf3b8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar214/README.md",
+    "originalSha256": "da272188cf354997b1c480f2ffd0539e57130ea8d6526005e761690fe1579f72",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar215/操作说明.md",
+    "originalSha256": "2ec2b2843e5bb72c15a859156ae40c1ec0dc9f08c22e81367f8ca45a12003e41",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar215/install.py",
+    "originalSha256": "ebccc28490f5fc2249863a3dc3056603de7c8c516786b18ab77b4bd7fd9cf3b8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar215/Launcher.ps1",
+    "originalSha256": "83da0155cf3451b7001810dc4546bb8032f01ebe9c5e385b743c319c0496078d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar216/install.py",
+    "originalSha256": "ebccc28490f5fc2249863a3dc3056603de7c8c516786b18ab77b4bd7fd9cf3b8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar216/Launcher.ps1",
+    "originalSha256": "5d11451a3474f642134e3de4c9e63da5c0e181b6ecb70fb082ff0fa28db34c1d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar217/install.py",
+    "originalSha256": "ebccc28490f5fc2249863a3dc3056603de7c8c516786b18ab77b4bd7fd9cf3b8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar217/Launcher.ps1",
+    "originalSha256": "5d8a807049f50321098853ef16d33039ad10cb6d21cad3233c6be96e92ea1978",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/liteavatar217/manager.py",
+    "originalSha256": "79bffbb06bf8d1d11c2d7b3b402a3ec8bc74542a1b96b5fdd34d2c2d55756499",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/nginx/active.conf",
+    "originalSha256": "63c8d1895f8543619a0e43da195f2812ed916e618ed44d933e266b62ce914b2b",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "deploy/openavatarchat/trial.env.example",
+    "originalSha256": "ed02b869935763d75da5fbc7190e264598cf16b00035d018ef2507556dd70448",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/#U6b65#U9aa414_#U4e2a#U4eba#U4e3b#U4f53#U5408#U89c4#U4e0e#U4e0a#U7ebf#U68c0#U67e5.md",
+    "originalSha256": "eb0b2397ee484481485d6509c29b226541bcec2451fc7cd6b50db5bbb73aa82f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/#U6b65#U9aa414_#U90e8#U7f72#U4e0e#U8fd0#U7ef4#U624b#U518c.md",
+    "originalSha256": "28a87ea65f9007a7ae266c042350437a1b206cbc0d24ad642b6902768c3599a6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/#U6b65#U9aa414_#U963f#U91cc#U4e91#U57df#U540d#U670d#U52a1#U5668ICP#U5907#U6848#U8be6#U7ec6#U64cd#U4f5c.md",
+    "originalSha256": "08cd5e30227075afd1bcc9736dcad35290c86c61ba6204b2ba39f802432fbec6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/#U6b65#U9aa414.2_#U529f#U80fd#U53d8#U66f4#U4e0e#U4f7f#U7528#U8bf4#U660e.md",
+    "originalSha256": "0640d719a9f848969ddf3747bed39a746acf475fd635bd08156d276dd85d225b",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/第15版_技术变更说明.md",
+    "originalSha256": "0769fc81d67478e92bb6ee5197e66f4af9a38e621ce53d01762ce2eb8d9bd825",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/第15版_课堂纠错与匿名弹幕使用说明.md",
+    "originalSha256": "e920dda5727af894cc6cd5d38e2ebeaf39880f09afd6ebd823585f83f94dd552",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/第15版_升级与域名上线操作说明.md",
+    "originalSha256": "8b3dde894f997985fa04c56bf314cc36d0bb3f4085fc4b89c86c2226c020a20a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/第17.2版_从第17版无损替换操作说明.md",
+    "originalSha256": "701100fef750c952f5767502c14efe8939cded4561c01945154185d1a1862318",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/第17版_从第15版无损升级操作说明.md",
+    "originalSha256": "e2a70c72c4327bb19d4634589528497b492a789596bf8146e49b9552b53b1c1f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/Stage2-OBE-plan-and-prompt.md",
+    "originalSha256": "f722ac5e294158383b05837f3ed2d52188fe83b259ac1c73020affb93eb6532c",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/Ubuntu-LiteAvatar-21.4-日常操作.md",
+    "originalSha256": "da272188cf354997b1c480f2ffd0539e57130ea8d6526005e761690fe1579f72",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V18_阿里云逐步替换说明.md",
+    "originalSha256": "72d521a7b265d158ff091e76ff8f3a677b08340fec48f8ee1ea9f473d25afa92",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V18_修改文件清单.txt",
+    "originalSha256": "e5d3969379666ed4d2c77f546356cc6f6c550c021c20fa8ba32c0c1bf656a3cc",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "docs/V18_验证记录.md",
+    "originalSha256": "7c4b5210d95529797ca2328130f84619291f0bfe0e2967ab95997171ac732548",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V19-17-to-19-aliyun-guide.md",
+    "originalSha256": "7f9602d3cbeb1eff671f41a0e95a21ad2692db08917e4ccbe78fc0bf062e7a2f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V19.1_轻量应用服务器Workbench替换步骤.md",
+    "originalSha256": "2fc570afd5c1f2f23f0e043fa1efaebaf26f0506e7dd1bf0e689b52803742659",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V19.2_Workbench升级与验收.md",
+    "originalSha256": "0922d0d18141825240d40d2ae02f7320292113e54090ca22ba46ac6c37ed7035",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20-validation.md",
+    "originalSha256": "f5f70120b41c99fbf1310a4b311e5a28d4fca0d2198b8fba4fe9a33561e72037",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20-Workbench-guide.md",
+    "originalSha256": "839d8e8ccdffe99cdf4f2e8a65691bb1403a82acf0add1a02e148398fd17f50e",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.1-course-and-OBE-plan.md",
+    "originalSha256": "f6a724bab8901cd49cc17bcb15356768acbf947ab4e364a65cdfa2a927aeaef2",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.1-syllabus-extracted.txt",
+    "originalSha256": "ecd2367cfa0c3a624922fd1567c29af060ebf702d02f34f3d2464eaadcfad47c",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "docs/V20.1-Workbench-guide.md",
+    "originalSha256": "1dce0bdd1a16613b938a1c93079adb27c0016594145a41d1d59c067a17f0de04",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.2-OBE-guide.md",
+    "originalSha256": "30cc556382afdac9595154fde110912a4ab4ebc8ee6f3770f8e17c95c70c4170",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.2-validation.md",
+    "originalSha256": "97c693eb0ce70ba27bda7837e374ba1579ae0faed259db1b8edbc4a93b934320",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.2-Workbench-guide.md",
+    "originalSha256": "ea6fd0d571463ff46f50cf544db06f58274bebd869fba4019a7d708504e4bce6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.3-Rules-and-acceptance.md",
+    "originalSha256": "e79a07f63197cc1ebf07bed0c1dee7a2514e76eb7c65d81471c44f77bb7c4931",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.3-Validation.md",
+    "originalSha256": "e78c75a7dfcea30db86590280c04f62fa910793a88ddf2e5266d4ec2c8b55240",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V20.3-Workbench-guide.md",
+    "originalSha256": "dbbcb6e5c5cc174bc4a943b1056d5df8687094d73d6a73020ee22db2e50c3634",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/v21.1/OpenAvatarChat-LiteAvatar-Setup.md",
+    "originalSha256": "f0eefc8a0bfca0cbc8cc227ebc7073f7365a3dfe4b7ef3f4779297fb5bf8eada",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/v21.1/preview/LiteAvatar-Official-Demo.mp4",
+    "originalSha256": "64b1d038f25bf2a5389c8cfdc50846bdacb1ad01b40c799cf6757221e0f35b15",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "docs/v21.1/Workbench-20-to-21.1.md",
+    "originalSha256": "8d8f6592431e6e43b5e8f8bfcb0e50a36eac9edffcfcde4b2c7c6de18fee9994",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/v21.2/Workbench-21.1-to-21.2.md",
+    "originalSha256": "cb0802e7cbeed8ae20547205fa37a5369d20396c8ac366faa816a73bcaa4f5be",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V21.3-VALIDATION.md",
+    "originalSha256": "14c40233694a1496ff8105879e837a582dcd16c56076ca697bdf50b59b087417",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/V21.4-VALIDATION.md",
+    "originalSha256": "b4ec532a26e9c05c0ba82dbae554f8cb8f8a75f03a1e5ad612e271eb7e4e878d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/v21/Workbench-Upgrade-V21.md",
+    "originalSha256": "8a797529334d261fd0008a90add9c64c63c8b2dd2638d3fb8c5c7e4ff08a6519",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/Validation-21.5.md",
+    "originalSha256": "335c410e830bd700ce488497d05f71e5e5817c13db0d0a244d3faabc092566f1",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/Workbench-21.2-to-21.3.md",
+    "originalSha256": "ff3b2ef96fdd0693c97a9bd884927fdee44040e718d968d394f77304557304b3",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/Workbench-21.2-to-21.4.md",
+    "originalSha256": "d7d3ef7fa1420016aac05b3e1d29614c007a885de74c658490121beef8462182",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "docs/Workbench-21.4-to-21.5.md",
+    "originalSha256": "2ec2b2843e5bb72c15a859156ae40c1ec0dc9f08c22e81367f8ca45a12003e41",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/classroom-demo.ts",
+    "originalSha256": "b5ec4d49e005a9a9b9aa489e924744db8dfb993a72a4daaae0ecabbda5c5b4f4",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/cloud/knowledge-chunks.jsonl.gz.b64",
+    "originalSha256": "ae7f769b552e8bcb603b9aec66d5307ab1281e55ea2065921eb5f2c5d74a826f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/cloud/knowledge.mjs",
+    "originalSha256": "3b3d4b293f36d5fb69d080b0079dc84218b99f65e0d9004b510f9ae807a1eda1",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/mainland/bootstrap.mjs",
+    "originalSha256": "d43fd65c612a9cf6b0c7e641ead196d6993a3b680edc866cbd2e930a4f8fc10a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step10/enrichment-content.ts",
+    "originalSha256": "8bb13fdbe4f25e43ec9d0c16fd97d145d43654a5a51e068185dae906867b1da0",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step10/textbook-highlights.json",
+    "originalSha256": "681b663dd0d4af0670342645ed74c4b89958b8439cdb0fe2b61c7749a949a828",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step20-1/course-bank.json",
+    "originalSha256": "005b72b4e7139319a1c9c3665f036ad141745ae3fc583bc94d7214d1cfc252bb",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step20-1/course-policy.json",
+    "originalSha256": "cd7d719ab23b7e1fffd2718a8dae23012eceddbed7aecdab30593c76e7eb68f2",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step20/bank.json",
+    "originalSha256": "77e840efb09fe82d88dd41d60bcf8232dd6598b33bb9775c895549f6e6f1a2e3",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step21-7/definitions.json",
+    "originalSha256": "8baf78f4c4e1ffd01ce7c6c4b2ad198591690b0e81a8cdd52bfeec2e18853d08",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step21/ppt-pages.json",
+    "originalSha256": "ed73d458f60565236e193b778624019dcec5c1d1528fbf46574867fc6db41db8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step8a/course-data.ts",
+    "originalSha256": "3d852f4630d8b3caa064465a8c40cc61920814c67279cad76f850271f63640a4",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step8a/database.ts",
+    "originalSha256": "6b729d546ef5e84f9a0b46b3b0fef1349c19b4cbbfb9ea8c69d1c7def85b154e",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "lib/step9/learning-content.ts",
+    "originalSha256": "83f21b7fedf4781cbae2cbbbb2abd45ceda8d9f98554376a5306b0979f4d7a0c",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "public/avatar25d/teacher-base.png",
+    "originalSha256": "788dd3e6ec36774e62b3a4cf61df03baa1f8082d0733be4a76c5019e622f1034",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-blink-source.png",
+    "originalSha256": "10f0412a9befcdb378cc5beeb5f32affa19b93458999d090b2ea61f286d4cbf7",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-gesture-emphasis.png",
+    "originalSha256": "fb13641185d12823bacb8da7cf78af955e9e7d618c84b36dc1d4aea838fdc4f5",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-gesture-open-palm.png",
+    "originalSha256": "91c724bff6eb17c9ad00dba5c657c6e3d00ffdece9db39b8c3e3c545d0f7cf09",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-gesture-two-hands.png",
+    "originalSha256": "98dcd38a4c7fb3d8c54379d3baf48c2ea056c30a6a18c17b37df35f6fe56b01f",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-mouth-a-source.png",
+    "originalSha256": "01864045e3f3841b4da80878a6252c0ece28d18ef5876ed3e98904f9061bf4b3",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-mouth-ei-source.png",
+    "originalSha256": "320841c5b21e702583d75e66034997dc0ec475ec32c901a1f892ad833e8259a5",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-mouth-fv-source.png",
+    "originalSha256": "7514e5582472ed47931c2706596e437429e417b24df215361c432567eb079bc1",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-mouth-ln-source.png",
+    "originalSha256": "a322a1b9b986a5921387f5cdd0e53761dc68522217c7604b1fdd9e075ad8312b",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/avatar25d/teacher-mouth-o-source.png",
+    "originalSha256": "781ecd4d649eb5134db780db0190989eff0c090e94fb1faff8fd46fef663d9a8",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/downloads/LiteAvatar-OneClick-21.6.zip",
+    "originalSha256": "4c9b0c01ef9392d2dc6d348bf727e2fef73ac01e3ddbc566f58e97ee3fb7838f",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/downloads/LiteAvatar-OneClick-21.7.zip",
+    "originalSha256": "f63874fa2c83707f3aaf4940e3a5c7b6600a8f51b642a34681a6b23bb4317c1f",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/images/digital-teacher-step7-trimmed.png",
+    "originalSha256": "acf62be458836f4626d3ab041d521a90e134cbe2b8526dab7a5f5ceff570c1f0",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/training/grand-canyon-topographic.webp",
+    "originalSha256": "c8743784ba132d857476bc464df516023ffb5c2c6f4d9b1d1a2ea5e6404e2f40",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/training/mount-st-helens-relief.webp",
+    "originalSha256": "52c9e0b200d67a5f6fee250d74bdc35769d03639d23879666a9fee6c2e27f178",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/v16/ai-teacher.png",
+    "originalSha256": "788dd3e6ec36774e62b3a4cf61df03baa1f8082d0733be4a76c5019e622f1034",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/v16/brand-logo.png",
+    "originalSha256": "7532776c13a9aa32b88c76e7476235a86543c9ecd7d5164b0262d7ae74171c98",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/v16/grand-canyon-topographic.webp",
+    "originalSha256": "c8743784ba132d857476bc464df516023ffb5c2c6f4d9b1d1a2ea5e6404e2f40",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/v16/lidar-point-cloud.webp",
+    "originalSha256": "5b61bbc0275a5498329de7542d42a11545d81a8b346773877a2e7b547f2cb728",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "public/v16/mount-st-helens-relief.webp",
+    "originalSha256": "52c9e0b200d67a5f6fee250d74bdc35769d03639d23879666a9fee6c2e27f178",
+    "action": "quarantined from public tree"
+  },
+  {
+    "path": "README_V18.md",
+    "originalSha256": "30df3c883482cac34f86ebe7bbffa22f7e60d65c1ab826386d41a53d243c816a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README_V19.1.md",
+    "originalSha256": "554cc403251aecbcb0cca80bd0c3a0813306a9cc6ae13e34d5a76c0c827d9b2f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README_V19.2.md",
+    "originalSha256": "b665202a649d643d89a62953f0da4e617516f4cb2cbb53bd675c02d107affa3d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-21.3.md",
+    "originalSha256": "ff3b2ef96fdd0693c97a9bd884927fdee44040e718d968d394f77304557304b3",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-21.4.md",
+    "originalSha256": "d7d3ef7fa1420016aac05b3e1d29614c007a885de74c658490121beef8462182",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-21.5.md",
+    "originalSha256": "b53d70150d23ee943d9ed958fa5078554f33b27900fc53462dd71faf1a302771",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-21.6.md",
+    "originalSha256": "8ab2520b09154799f6154a93c42e453419cca878dbb9bd651795af72412e5d50",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-21.7.md",
+    "originalSha256": "735c19d18ff937e070fc488192f958c647e77458e7673d342faac34045e8537f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-v18-original.md",
+    "originalSha256": "5bac134ee718ea0e492862a38ce63ffef7c172bbeb43170ef3c2dd3f410c1df4",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-V20.1.md",
+    "originalSha256": "8e8a4ca8b4a57e5d8834302d2538700f6d1cf624eba06ca49f497d51a04cdecd",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-V20.md",
+    "originalSha256": "7f055907ded3e9720c2e711ae3243125e11b33c02a1f5eef423cd143a8d284eb",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-V21.1.md",
+    "originalSha256": "ffd164c3f51987e17b2a1a48caf811cb5849479a728589dfe60a13682d767532",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-V21.2.md",
+    "originalSha256": "eaf5753856c34cd6afdeb186673af7253c73111a150be7bb495f4ef2e647f04a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README-V21.md",
+    "originalSha256": "fd13b7e7ef1dba9bca3ceacfc4096037ed43a97e2693a2f41db6ab9ece8820ca",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "README.md",
+    "originalSha256": "ffd164c3f51987e17b2a1a48caf811cb5849479a728589dfe60a13682d767532",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "RELEASE-MANIFEST-V21.2.json",
+    "originalSha256": "457c4db4d0ac173110dcab317475fe59062d7a0f9bc522d15a5a489c55070feb",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "RELEASE-MANIFEST.json",
+    "originalSha256": "8750d0ee12692843e3e9edd7c21880496b5668e4bcdd09202160493c5237f7fd",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "release-v20.json",
+    "originalSha256": "5d7200a5bf5a6e290be3bcdd61266238d6a41ae79ae177b61313b934d01cef7a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "release-v21.6.json",
+    "originalSha256": "214bfe5011ecc101fcb85ec6a7091652f03b00468d8f7ef57e41a058bbeb3cd0",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "release-v21.7.json",
+    "originalSha256": "b6b7f2aedff3cd6430218f16bfc4086506bd3a7d37f58b89e630a44fce1463af",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step14-enable-public.sh",
+    "originalSha256": "2c96094ac15926cdf6caeac31ec933357739ed677f58ce237f11474a4d6ffd66",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step15-enable-public.sh",
+    "originalSha256": "3a1c084cc0a4e361fdc3e84f940d8284a32a3fc24a8e2fb372ab28817786b58a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step15-render-nginx.sh",
+    "originalSha256": "e09b2d66a86cc1a3939a3cdbe28f187ea10cbeb595098f552da696b74da91819",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step15-start-private.sh",
+    "originalSha256": "5471d250569224ea7735125aaf3183086af4881aeab1c1714890930d5d53e7a9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step15-upgrade-from-14.2.sh",
+    "originalSha256": "a4dedbc0b88349d35c9a6a0b0b39889b0394dd28ab33c6eae6b02c35b7c6d95a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step15-verify.sh",
+    "originalSha256": "606c3f22c332ae5c5ac21ae1a22a907cd3701813faaebcdd58b79304a9687450",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-2-enable-public.sh",
+    "originalSha256": "f064d6d38059af2dbf0889863126bb40190a698005f2cfc9111c96cc4f55dc48",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-2-upgrade-from-17.sh",
+    "originalSha256": "e4c2d9bffe6ccda794759e2496840260a10d1dc08fb8ad2c45aca3138afdf861",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-2-verify.sh",
+    "originalSha256": "edf9ef528a636a4fe6ff783175dc0f427d45b4c44e0f7e0ae9b2334d01b92f6b",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-enable-public.sh",
+    "originalSha256": "f89372369cbead7cf2c1df2cc6a190a0bb150408ae246010a74a1d73f2a66ebf",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-render-nginx.sh",
+    "originalSha256": "7674e70ebcdfd89643fe9e1f30d81e11d183855289bc5e3b9842c54f7b8c4cf1",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-upgrade-from-15.sh",
+    "originalSha256": "cc168b31a4a5696871e1694bb7feb233662a7488df732c0897740ef186f8489f",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/step17-verify.sh",
+    "originalSha256": "2237cc08d8b4fd23803c46ed8c41561276001d6176b865eb83fc66652d3cc4bc",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v18-rollback.sh",
+    "originalSha256": "97c759c9a217a3fc7984ce008bdde381a02863050cc8954ac5caf404365ea653",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v18-upgrade.sh",
+    "originalSha256": "fd1285d26fc08940178b9f921a28b33dea5e9d546cff9c68f9bf27005bb30e05",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v19-1-upgrade.sh",
+    "originalSha256": "b2ac0e517a3df5f99a9511295ca9c37cc617fab1977cbb4703cfe37bcee73545",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v19-2-upgrade.sh",
+    "originalSha256": "b2ac0e517a3df5f99a9511295ca9c37cc617fab1977cbb4703cfe37bcee73545",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v19-rollback.sh",
+    "originalSha256": "623f6baa5b148b5e647c8f57a4e64b39626eee8032d20f06ef1880d92ed8e90a",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v19-upgrade.sh",
+    "originalSha256": "2ec68fe7b5611b745380db2e2ed453b70c86d8fa230f2aacb4b04e6784377c2d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-2-rollback.sh",
+    "originalSha256": "1abfca43307b0d55ce129c000893826158869cee4085f6263a104317c657ad34",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-2-upgrade.sh",
+    "originalSha256": "bdee13e01d64719adb93b332c100e5024759211772e2a965b37a5f67cd0bb68b",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-2-verify.sh",
+    "originalSha256": "4b76dedc6ac267dcca3920e0101f6a99f8ee591f595f65b5c9d5fe67d2f4cfe5",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-3-preflight.sh",
+    "originalSha256": "5633c068103fa5438f93a50116a2fa9964bd8ef76a7eb001da1b020479a09439",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-3-rollback.sh",
+    "originalSha256": "e4e6e7c3c95bca7437650f74a7592166939f62b7a72840d33fff780270c5e36c",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-3-upgrade.sh",
+    "originalSha256": "9bb36e41b3e8bee9376f04e6885b70de0ed3bdb121f46e6511c8bd35e44d78b6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-3-verify.sh",
+    "originalSha256": "212380d9dfcb43a3bfe138cae090fb2c96f2ea2cfa92942321fe2f26fec02ad1",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-upgrade.sh",
+    "originalSha256": "9b78769cd788a9bbc63adedd5e72108971fa08dc955c37e6447a3a9e46c1b96d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v20-verify.sh",
+    "originalSha256": "eff93607678ff509364b300229b3c3b55a5d47f9de728c3c10a994c2ac3fe186",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-1-preflight.sh",
+    "originalSha256": "f2175d58021d00721bf7913fd9f698815d40d38e98ebb7509f691aa80112954e",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-1-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-1-upgrade.sh",
+    "originalSha256": "6e0b79b21d22691ba6e568eacd014522a71925679077bfc03b203a95beaf1a20",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-1-verify.sh",
+    "originalSha256": "d42272b092532364d0dbdf21494b0ec57388650679622466ad33133aff009d18",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-2-preflight.sh",
+    "originalSha256": "deaa7581c42a5a80d638aad8e71d71051bd8ba3509adce8aaf328f71a9c26fe3",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-2-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-2-upgrade.sh",
+    "originalSha256": "b232c43d78ef645ed4f16501a0ca1aec194b9effd0181d3f38e8f1c7aa6dd049",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-2-verify.sh",
+    "originalSha256": "4a863008b825821e51c9aac558d3cb6f62b7069ede5a29178e62523cc85f7d1d",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-3-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-3-upgrade.sh",
+    "originalSha256": "ef6d48e549bc251bc17bee30be7f0f6153b83cfd71ad01c75208ea5dd59853b3",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-3-verify.sh",
+    "originalSha256": "2b78f13e46be4515454ec9432a1c317d2c23e937ac54c1306c1a26ce519f5ef1",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-4-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-4-upgrade.sh",
+    "originalSha256": "f85a6c77fb2cc85007a7c34c30073940350459c55371cd2787d7763739e047c6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-4-verify.sh",
+    "originalSha256": "b7ae622dabb20a1d71f59c7c43b34af9117cd69d56adaa61d12d29d6a092c3bf",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-5-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-5-upgrade.sh",
+    "originalSha256": "f2e03458d2a7f2dc3f09b0aff1a0f3363129ae4678711e9eadc6f3c4bcd18f0c",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-5-verify.sh",
+    "originalSha256": "3486cfed95e531f6168e5f7d76e5435a85eec436d73ab6398642ec23e624044e",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-6-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-6-upgrade.sh",
+    "originalSha256": "a396ae3ba7de4c54207475e8ccb21b004da56956f3db01f43e62a3ee0d6ebc41",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-6-verify.sh",
+    "originalSha256": "c12ae0d2e14271405e602011a185f32f35fcdf8541faf2472b0c68180bb55e26",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-7-rollback.sh",
+    "originalSha256": "f22053a4c378ed159a73a03cd61f61517c1c9ee92f752e64fb58c207605430e9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-7-upgrade.sh",
+    "originalSha256": "94657b2b2be2a824bee694235b71ad80023ddeb2b3577ea28f2c164568323db7",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-7-verify.sh",
+    "originalSha256": "827e9ce8349f6ac699032bee93ceb81ac3709730e5b95c4eed81d0ae78c22d75",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-preflight.sh",
+    "originalSha256": "3594db1a17aa0db645197dbd6614eed6a343f6a95befee7575cd167ba418027c",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-rollback.sh",
+    "originalSha256": "e4e6e7c3c95bca7437650f74a7592166939f62b7a72840d33fff780270c5e36c",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-upgrade.sh",
+    "originalSha256": "23e9de8f5476201558b2bc0db8a7ea872b35c946b6045cfcdf5cb0cd350f3a0b",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "scripts/v21-verify.sh",
+    "originalSha256": "db235e23892b14430966505c924ea313cacc365f358770d49ea012c46243ffa9",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/step14-package.test.mjs",
+    "originalSha256": "d3857b48dfcc8527865e6ccf072a8cae3000a81913e5810e5aee8f68e8a667ce",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/step17-2-v16-interface.test.mjs",
+    "originalSha256": "f6a1d8dd47acd576e59fa0c03c8af5d0b4731366ecff0641cf12dc7d78c57a39",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v18-upgrade-simulation.py",
+    "originalSha256": "a17b177681ad71041e7d786a55030f31f0b0f0d8b95026e9ddaacb000295c7ba",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v19-upgrade-simulation.py",
+    "originalSha256": "f0467ecb949c84c856632bccb94465c48489a2598dc0efa5869fdd7a3d14b414",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v20-3-upgrade-simulation.py",
+    "originalSha256": "b2d8cea48aa0122ed551ca66a7d9a0f2fdac70e3f58c270c81263c2e97d59103",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-1-upgrade-simulation.py",
+    "originalSha256": "a839e273d5abc589643de78b9239854f088a2644d448a6bccfe317abe3d4ffc6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-2-upgrade-simulation.py",
+    "originalSha256": "2684d8358afc9637eef2f1133dd625d2bc4a14f6ed01c1d0faeb231875db94da",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-3-upgrade-simulation.py",
+    "originalSha256": "d220a0d2bc38a9b7f07f4db9f8969265c4337ade2944a8b1305d7a7791c75129",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-4-upgrade-simulation.py",
+    "originalSha256": "c751b30ab537a3fae7bff0daf610c04235a85bf25e71d5077b12b481d68068b6",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-5-upgrade-simulation.py",
+    "originalSha256": "fb12df2814029d154d1b1ca9f917c8e787299248e7a256c67874dad66a8b7fa5",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-6-ui.cjs",
+    "originalSha256": "1aeeaeac2dde2103e82f552d7107ab4e8470c2f2faf4c2a9b0b8ed3948bad2a2",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-6-upgrade-simulation.py",
+    "originalSha256": "c57838462870920c970853ff27deda0542429df3150f8016f5040ba1e4fde6a8",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-7-upgrade-simulation.py",
+    "originalSha256": "ec2d7c385fc062f8c662419c3d0fe35dfd75df6a81e2e5cae330a1167ce26caf",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "tests/v21-upgrade-simulation.py",
+    "originalSha256": "35930e90aa332a8b22a93a09c2ee7ad86fb377bd62d11f1a2709e94ae5ba6a40",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "V19-BASELINE-AND-VALIDATION.json",
+    "originalSha256": "f9d3a0107ead68f760341243b16f7c7cd9b991d0d6ba43c4bbf014dc4d458253",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "Validation-21.6.md",
+    "originalSha256": "7553cc4985bd0e8411a313d8ed0e5d130e3d3b0403643e4a73d697d84301ba98",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "Validation-21.7.md",
+    "originalSha256": "8ec08d194d9bcc663bd422ec9f89b94908ec2c4551219146ac70d00e54b9563e",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "VERSION15_交付说明.md",
+    "originalSha256": "e846d55df20f75636e192667568c1b26e701ebd8d8f828bd767bf5ab25db8a48",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "Workbench-21.5-to-21.6.md",
+    "originalSha256": "e798dce2844e88b4d6ee03b26c71ea3539f630ad4789b6a023d5d5c649909b73",
+    "action": "replaced or sanitized; original withheld"
+  },
+  {
+    "path": "Workbench-21.5-to-21.7.md",
+    "originalSha256": "49de0117cde3c162753f3539eee4768082e9bee870f2b40f1118bbce7e9fbb1a",
+    "action": "replaced or sanitized; original withheld"
+  }
+]

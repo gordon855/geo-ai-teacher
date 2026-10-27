@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {chatResult} from '../lib/step20-1/chat-result.mjs';import {displayCitationStream,sourceLocation} from '../lib/step20-1/source-display.mjs';
+test('JSON and streaming final result retains authority mode',()=>{const r=chatResult({retrievalStrategy:'cloud_test',authorityMode:'course',answer:'Answer',status:'ok',sources:[],taskMode:'qa'},'r');assert.equal(r.authority_mode,'course');assert.equal(r.answer,'Answer');});
+test('spoken split citation uses actual source page instead of internal IDs',async()=>{async function* chunks(){yield '解释[S';yield '1]继续';}let output='';for await(const x of displayCitationStream(chunks(),[{id:'S1',citation:'系统页 12'}]))output+=x;assert.equal(output,'解释（资料第12页）继续');assert.equal(sourceLocation({citation:'第8张幻灯片'}),'课件第8页');});

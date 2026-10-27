@@ -1,0 +1,3 @@
+import {NextRequest} from 'next/server';import {validTick} from '@/lib/step20-3/policy.mjs';import {recoverAndGrade} from '@/lib/step21/store.mjs';import {completeMessages} from '@/lib/cloud/ai-service.mjs';import {noStoreJson} from '@/lib/step8a/api';
+export const runtime='nodejs';export const dynamic='force-dynamic';
+export async function POST(req:NextRequest){if(!validTick(req.headers.get('x-obe-time')||'',req.headers.get('x-obe-signature')||'',process.env.APP_ENCRYPTION_KEY||''))return noStoreJson({error:'禁止访问'},{status:403});try{return noStoreJson(await recoverAndGrade(completeMessages));}catch{return noStoreJson({error:'情境任务后台检查失败，请在教师端重试'},{status:503});}}

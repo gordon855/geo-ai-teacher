@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-27T06:52:29.4057783Z",
+  "applicationVersion": "21.7.0",
+  "nextVersion": "16.4.2",
+  "zodVersion": "4.6.7",
+  "production": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "includingDevelopment": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "remaining": [],
+  "decision": "Final pre-publication rerun: npm ci, typecheck, lint, 87 tests and production build passed. Fresh full and production npm audits both report zero. No dependency version changed in this recheck; earlier Zod 4.6.7 repair retained. Point-in-time registry result, not a complete audit of embedded SDK code.",
+  "licenseLimitations": "Apache-2.0 approved for project-owned source. Third-party notices retained. Bundled SDK, native binary and image redistribution still require their own review; current first-release scope excludes compiled output/images/models."
+}

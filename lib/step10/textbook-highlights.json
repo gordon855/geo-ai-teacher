@@ -1,0 +1,410 @@
+[
+  {
+    "unit": 1,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 1,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 1,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 1,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 2,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 2,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 2,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 2,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 7,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 7,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 7,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 7,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 8,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 8,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 8,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 8,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 9,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 9,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 9,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 9,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 10,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 10,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 10,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 10,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 11,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 11,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 11,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 11,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 15,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 15,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 15,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 15,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 16,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 16,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 16,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 16,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 18,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 18,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 18,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 18,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 23,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 23,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 23,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 23,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 24,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 24,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 24,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 24,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 27,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 27,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 27,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 27,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 29,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 29,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 29,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 29,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 33,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 33,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 33,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 33,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 34,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 34,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 34,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 34,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  },
+  {
+    "unit": 36,
+    "sequence": 1,
+    "original": "A survey point identifies a location selected for measurement.",
+    "textbookTranslation": "测点标识为测量而选定的位置。"
+  },
+  {
+    "unit": 36,
+    "sequence": 2,
+    "original": "Leveling compares heights using observations of a horizontal reference.",
+    "textbookTranslation": "水准测量利用水平基准的观测比较高差。"
+  },
+  {
+    "unit": 36,
+    "sequence": 3,
+    "original": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "textbookTranslation": "地图比例尺表示采用相同单位的图上距离与实地距离之间的关系。"
+  },
+  {
+    "unit": 36,
+    "sequence": 4,
+    "original": "A coordinate describes a position within a specified reference system.",
+    "textbookTranslation": "坐标描述指定参考系统中的位置。"
+  }
+]

@@ -1,0 +1,8 @@
+.stage{position:absolute;inset:0;overflow:hidden;isolation:isolate}
+.canvas{position:absolute;inset:0;width:100%;height:100%;display:block;filter:drop-shadow(0 26px 38px rgba(0,0,0,.28))}
+.renderBadge{position:absolute;right:24px;bottom:18px;z-index:4;padding:6px 9px;border:1px solid rgba(102,224,240,.2);border-radius:6px;color:rgba(197,240,247,.72);background:rgba(5,24,38,.48);backdrop-filter:blur(10px);font:700 9px/1.2 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.06em}
+.fallbackFigure{position:absolute;left:50%;top:50%;width:min(32vw,260px);height:min(62vh,520px);transform:translate(-50%,-48%);filter:drop-shadow(0 24px 34px rgba(0,0,0,.32))}
+.fallbackHead{position:absolute;left:50%;top:3%;width:38%;aspect-ratio:1/1.2;border-radius:48% 48% 44% 44%;transform:translateX(-50%);background:linear-gradient(145deg,#e9c2ae 0 64%,#24212a 65%);box-shadow:inset 0 12px 0 #262028}
+.fallbackBody{position:absolute;left:50%;top:35%;width:80%;height:62%;border-radius:42% 42% 18% 18%;transform:translateX(-50%);background:linear-gradient(90deg,#0b3c60,#1c73a6 48%,#0b3c60)}
+@media(max-width:720px){.renderBadge{right:12px;bottom:12px}.fallbackFigure{width:48vw}}
+

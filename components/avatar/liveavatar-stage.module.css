@@ -1,0 +1,13 @@
+.stage{position:absolute;z-index:2;inset:66px 0 0;overflow:hidden;background:radial-gradient(circle at 50% 42%,rgba(30,104,136,.34),rgba(1,10,18,.08) 52%,rgba(1,8,14,.55) 100%);transition:right .24s ease}
+.stage[data-panel-open="true"]{right:448px}
+.video{width:100%;height:100%;display:block;object-fit:contain;object-position:center center;background:transparent}
+.statusCard{position:absolute;left:50%;top:45%;width:min(480px,calc(100vw - 40px));padding:25px 27px;border:1px solid rgba(99,221,237,.24);border-radius:18px;color:#eafdff;background:rgba(3,21,35,.91);backdrop-filter:blur(18px);transform:translate(-50%,-50%);box-shadow:0 24px 70px rgba(0,0,0,.35);text-align:center}
+.statusCard span{display:inline-block;margin-bottom:12px;padding:5px 8px;border:1px solid rgba(96,224,237,.24);border-radius:6px;color:#6ce4ef;font:800 10px/1 ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.15em}.statusCard strong{display:block;font-size:19px}.statusCard p{margin:11px 0 17px;color:#abc8d1;font-size:12px;line-height:1.7}.statusCard a,.playButton{display:inline-flex;min-height:40px;align-items:center;justify-content:center;padding:0 16px;border:1px solid #66dfeb;border-radius:9px;color:#06202c;background:#6ce4ef;font-size:12px;font-weight:800;text-decoration:none;cursor:pointer}
+.playButton{position:absolute;z-index:4;left:50%;top:150px;transform:translateX(-50%);box-shadow:0 12px 34px rgba(0,0,0,.28)}
+.networkBadge{position:absolute;right:20px;bottom:24px;display:flex;align-items:center;gap:7px;max-width:360px;padding:7px 10px;border:1px solid rgba(112,220,234,.18);border-radius:8px;color:#a9d2db;background:rgba(3,20,32,.66);backdrop-filter:blur(10px);font-size:9px}.networkBadge i{width:7px;height:7px;border-radius:50%;background:#62dfae;box-shadow:0 0 10px #62dfae}
+.stage[data-state="connecting"] .networkBadge i{background:#63dce9;animation:pulse .8s ease-in-out infinite alternate}.stage[data-state="error"] .networkBadge i,.stage[data-state="missing"] .networkBadge i{background:#ed7987;box-shadow:0 0 10px #ed7987}
+@keyframes pulse{to{opacity:.35}}
+@media(max-width:1100px) and (min-width:761px){.stage[data-panel-open="true"]{right:386px}}
+@media(max-width:760px){.stage,.stage[data-panel-open="true"]{inset:58px 0 0}.networkBadge{right:10px;bottom:176px;max-width:calc(100vw - 20px)}.playButton{top:124px}}
+@media(max-height:560px) and (min-width:761px){.stage{inset:52px 0 0}.networkBadge{bottom:94px}.statusCard{top:42%;padding:18px 22px}}
+@media(prefers-reduced-motion:reduce){.networkBadge i{animation:none!important}}

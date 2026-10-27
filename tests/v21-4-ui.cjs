@@ -1,0 +1,23 @@
+// Isolated real React panel UI with mock HTTP and viewer. Supply ESBUILD_PATH for a separately installed esbuild.
+const {build}=require(process.env.ESBUILD_PATH||'esbuild');
+const {chromium}=require('playwright');
+const http=require('node:http'),fs=require('node:fs'),path=require('node:path'),os=require('node:os'),assert=require('node:assert/strict');
+(async()=>{
+const root=path.resolve(__dirname,'..'),out=fs.mkdtempSync(path.join(os.tmpdir(),'v214-ui-'));
+await build({stdin:{contents:`import React from 'react';import {createRoot} from 'react-dom/client';import Panel from './components/presentation/teacher-presentation-panel';createRoot(document.getElementById('root')).render(<Panel teacherName="郭老师"/>);`,resolveDir:root,loader:'tsx'},bundle:true,outfile:path.join(out,'ui.js'),jsx:'automatic',plugins:[{name:'mock-stage',setup(b){b.onResolve({filter:/teacher-presentation-workspace$/},()=>({path:'stage',namespace:'mock'}));b.onLoad({filter:/.*/,namespace:'mock'},()=>({contents:`export default function Stage(){return <section data-testid="stage"><h2>课堂交互PPT讲授台</h2><p>渲染器测试替身，仅验证课件库界面。</p></section>}`,loader:'tsx',resolveDir:root}));}}]});
+const server=http.createServer((req,res)=>{if(req.url==='/ui.js'||req.url==='/ui.css'){res.setHeader('Content-Type',req.url.endsWith('.css')?'text/css':'text/javascript');res.end(fs.readFileSync(path.join(out,req.url.slice(1))));}else{res.setHeader('Content-Type','text/html');res.end('<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/ui.css"><style>body{font-family:Arial,sans-serif;background:#edf5f7;margin:24px;}*{box-sizing:border-box}</style><div id="root"></div><script src="/ui.js"></script></html>')}});await new Promise(r=>server.listen(0,'127.0.0.1',r));
+let browser;try {
+browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+let decks=[{version:'aaaaaaaaaaaaaaaa',originalName:'Unit 1 · 测绘概论.pptx',size:3000,updatedBy:'郭老师',updatedAt:new Date().toISOString(),isCurrent:true,analysis:{slideCount:25}}],posts=0;
+await page.route('**/api/presentation/catalog',async route=>{const req=route.request();if(req.method()==='GET')return route.fulfill({json:{ok:true,presentations:decks}});if(req.method()==='PATCH'){const v=req.postDataJSON().version;decks=decks.map(d=>({...d,isCurrent:d.version===v}));return route.fulfill({json:{ok:true,presentation:decks.find(d=>d.isCurrent)}});}posts++;if(posts===2)return route.fulfill({status:500,json:{ok:false,error:'模拟网络失败，可重试'}});const v=posts===1?'bbbbbbbbbbbbbbbb':'cccccccccccccccc';const d={...decks[0],version:v,originalName:posts===1?'Unit 2 · 水准测量.pptx':'Unit 3 · 全站仪.pptx',isCurrent:false};decks.push(d);return route.fulfill({status:201,json:{ok:true,presentation:d}});});
+await page.goto(`http://127.0.0.1:${server.address().port}`);
+await page.getByLabel('课件库（1份）').waitFor();
+await page.locator('input[type=file]').setInputFiles([{name:'Unit2.pptx',mimeType:'application/octet-stream',buffer:Buffer.from('test2')},{name:'Unit3.pptx',mimeType:'application/octet-stream',buffer:Buffer.from('test3')}]);
+await page.getByRole('button',{name:'上传到课件库',exact:true}).click();await page.getByText(/本次成功 1 份，失败 1 份/).waitFor();assert.equal(decks.find(d=>d.isCurrent).version,'aaaaaaaaaaaaaaaa');
+await page.getByRole('button',{name:'重试未成功的课件'}).click();await page.getByText(/本次成功 1 份，失败 0 份/).waitFor();assert.equal(posts,3);
+await page.getByLabel('课件库（3份）').selectOption('bbbbbbbbbbbbbbbb');await page.getByRole('button',{name:'在讲授台展示 ↓'}).click();await page.getByText(/已切换课堂课件/).waitFor();assert.equal(decks.find(d=>d.isCurrent).version,'bbbbbbbbbbbbbbbb');
+await page.getByLabel('搜索课件名称').fill('全站仪');assert.equal(await page.locator('select option').count(),2);await page.getByLabel('搜索课件名称').fill('');
+await page.screenshot({path:'/tmp/v214-ui-desktop.png',fullPage:true});
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/v214-ui-mobile.png',fullPage:true});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),'mobile horizontal overflow');assert.deepEqual(errors,[]);console.log('PASS: real panel multi-upload, partial failure/retry, preserved current, select/switch, search, mobile width; APIs/viewer mocked');
+}finally{if(browser)await browser.close();await new Promise(r=>server.close(r));fs.rmSync(out,{recursive:true,force:true});}
+})().catch(e=>{console.error(e);process.exitCode=1});

@@ -1,0 +1,2 @@
+import {NextRequest} from 'next/server';import {currentRequestUser} from '@/lib/step8a/session';import {noStoreJson} from '@/lib/step8a/api';import {config} from '@/lib/step21-1/core.mjs';
+export const dynamic='force-dynamic';export async function GET(r:NextRequest){const u=await currentRequestUser(r);if(!u||u.role!=='teacher')return noStoreJson({error:'仅教师可使用'},{status:403});const c=config();return noStoreJson({liteavatar:c.enabled&&c.bridgeConfigured?c.liteavatar:null});}

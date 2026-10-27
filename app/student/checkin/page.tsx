@@ -1,0 +1,1 @@
+import {redirect} from 'next/navigation';import {currentPageUser} from '@/lib/step8a/session';import Student from '@/components/checkin/student';export const dynamic='force-dynamic';export default async function Page(){const u=await currentPageUser();if(!u||u.role!=='student')redirect('/student/login');return <Student/>;}

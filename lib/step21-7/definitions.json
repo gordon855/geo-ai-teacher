@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "DEMO-U1-D0",
+    "unit": 1,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U1-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U1-D1",
+    "unit": 1,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U1-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U1-D2",
+    "unit": 1,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U1-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U1-D3",
+    "unit": 1,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U1-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U2-D0",
+    "unit": 2,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U2-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U2-D1",
+    "unit": 2,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U2-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U2-D2",
+    "unit": 2,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U2-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U2-D3",
+    "unit": 2,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U2-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U7-D0",
+    "unit": 7,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U7-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U7-D1",
+    "unit": 7,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U7-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U7-D2",
+    "unit": 7,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U7-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U7-D3",
+    "unit": 7,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U7-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U8-D0",
+    "unit": 8,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U8-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U8-D1",
+    "unit": 8,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U8-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U8-D2",
+    "unit": 8,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U8-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U8-D3",
+    "unit": 8,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U8-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U9-D0",
+    "unit": 9,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U9-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U9-D1",
+    "unit": 9,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U9-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U9-D2",
+    "unit": 9,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U9-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U9-D3",
+    "unit": 9,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U9-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U10-D0",
+    "unit": 10,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U10-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U10-D1",
+    "unit": 10,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U10-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U10-D2",
+    "unit": 10,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U10-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U10-D3",
+    "unit": 10,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U10-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U11-D0",
+    "unit": 11,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U11-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U11-D1",
+    "unit": 11,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U11-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U11-D2",
+    "unit": 11,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U11-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U11-D3",
+    "unit": 11,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U11-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U15-D0",
+    "unit": 15,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U15-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U15-D1",
+    "unit": 15,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U15-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U15-D2",
+    "unit": 15,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U15-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U15-D3",
+    "unit": 15,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U15-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U16-D0",
+    "unit": 16,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U16-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U16-D1",
+    "unit": 16,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U16-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U16-D2",
+    "unit": 16,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U16-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U16-D3",
+    "unit": 16,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U16-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U18-D0",
+    "unit": 18,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U18-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U18-D1",
+    "unit": 18,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U18-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U18-D2",
+    "unit": 18,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U18-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U18-D3",
+    "unit": 18,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U18-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U23-D0",
+    "unit": 23,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U23-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U23-D1",
+    "unit": 23,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U23-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U23-D2",
+    "unit": 23,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U23-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U23-D3",
+    "unit": 23,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U23-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U24-D0",
+    "unit": 24,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U24-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U24-D1",
+    "unit": 24,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U24-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U24-D2",
+    "unit": 24,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U24-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U24-D3",
+    "unit": 24,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U24-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U27-D0",
+    "unit": 27,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U27-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U27-D1",
+    "unit": 27,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U27-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U27-D2",
+    "unit": 27,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U27-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U27-D3",
+    "unit": 27,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U27-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U29-D0",
+    "unit": 29,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U29-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U29-D1",
+    "unit": 29,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U29-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U29-D2",
+    "unit": 29,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U29-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U29-D3",
+    "unit": 29,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U29-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U33-D0",
+    "unit": 33,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U33-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U33-D1",
+    "unit": 33,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U33-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U33-D2",
+    "unit": 33,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U33-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U33-D3",
+    "unit": 33,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U33-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U34-D0",
+    "unit": 34,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U34-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U34-D1",
+    "unit": 34,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U34-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U34-D2",
+    "unit": 34,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U34-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U34-D3",
+    "unit": 34,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U34-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U36-D0",
+    "unit": 36,
+    "kind": "principle",
+    "prompt": "Explain survey point（测点）and give a practical example.",
+    "answer": "survey point：A survey point identifies a location selected for measurement.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U36-sentence-0",
+    "sourceExcerpt": "A survey point identifies a location selected for measurement.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U36-D1",
+    "unit": 36,
+    "kind": "principle",
+    "prompt": "Explain leveling（水准测量）and give a practical example.",
+    "answer": "leveling：Leveling compares heights using observations of a horizontal reference.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U36-sentence-1",
+    "sourceExcerpt": "Leveling compares heights using observations of a horizontal reference.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U36-D2",
+    "unit": 36,
+    "kind": "principle",
+    "prompt": "Explain map scale（地图比例尺）and give a practical example.",
+    "answer": "map scale：Map scale relates a distance on a map to a ground distance in the same units.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U36-sentence-2",
+    "sourceExcerpt": "Map scale relates a distance on a map to a ground distance in the same units.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  },
+  {
+    "id": "DEMO-U36-D3",
+    "unit": 36,
+    "kind": "principle",
+    "prompt": "Explain coordinate（坐标）and give a practical example.",
+    "answer": "coordinate：A coordinate describes a position within a specified reference system.",
+    "source": "GeoAI Teacher original demo content / 原创示例，非教材逐字引文",
+    "sourceType": "original_demo",
+    "objectiveTags": [
+      "CO2",
+      "PRINCIPLE"
+    ],
+    "questionType": "definition",
+    "bankVersion": "21.7",
+    "sourceQuestionId": "DEMO-U36-sentence-3",
+    "sourceExcerpt": "A coordinate describes a position within a specified reference system.",
+    "rubric": "Concept accuracy: 3 points; relevant example: 2 points."
+  }
+]

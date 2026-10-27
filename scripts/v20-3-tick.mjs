@@ -1,0 +1,4 @@
+import {signTick} from '../lib/step20-3/policy.mjs';
+const key=process.env.APP_ENCRYPTION_KEY;if(!key)throw Error('缺少任务签名配置');const timestamp=String(Date.now());const r=await fetch('http://127.0.0.1:3000/api/internal/obe-tick',{method:'POST',headers:{'x-obe-time':timestamp,'x-obe-signature':signTick(timestamp,key)},signal:AbortSignal.timeout(240000)});if(!r.ok)throw Error('后台任务返回HTTP '+r.status);console.log(new Date().toISOString(),await r.text());
+// Retain the existing OBE tick, then recover at most one interrupted pilot submission.
+const scenarioTime=String(Date.now());const scenario=await fetch('http://127.0.0.1:3000/api/internal/scenario-tick',{method:'POST',headers:{'x-obe-time':scenarioTime,'x-obe-signature':signTick(scenarioTime,key)},signal:AbortSignal.timeout(60000)});if(!scenario.ok)throw Error('情境任务检查返回HTTP '+scenario.status);console.log('scenario',await scenario.text());

@@ -1,0 +1,63 @@
+.heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 18px; }
+.heading small { color: #1b9eaa; font-size: 9px; font-weight: 900; letter-spacing: .14em; }
+.heading h1 { margin: 7px 0 5px; color: #183443; font-size: 28px; }
+.heading p { margin: 0; color: #70858f; font-size: 12px; }
+.heading a { min-height: 38px; display: inline-flex; align-items: center; padding: 0 13px; border: 1px solid #c6dfe3; border-radius: 9px; color: #1b7380; background: #fff; font-size: 11px; font-weight: 800; text-decoration: none; }
+.notice,
+.error { margin-bottom: 13px; padding: 11px 13px; border-radius: 9px; font-size: 11px; }
+.notice { border: 1px solid #b8ead9; color: #187253; background: #effbf6; }
+.error { border: 1px solid #f0c4ca; color: #a13747; background: #fff3f5; }
+.grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(320px, .85fr); gap: 15px; }
+.uploadCard,
+.currentCard { min-height: 380px; padding: 24px; border: 1px solid #d8e6e9; border-radius: 15px; background: #fff; box-shadow: 0 12px 30px rgba(42, 80, 91, .06); }
+.eyebrow { color: #1697a4; font: 800 9px/1 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .13em; }
+.uploadCard h2,
+.currentCard h2 { margin: 11px 0 8px; color: #1e3947; font-size: 20px; }
+.uploadCard > p { margin: 0; color: #748992; font-size: 11px; line-height: 1.75; }
+.uploadCard label { min-height: 112px; display: flex; align-items: center; gap: 14px; margin-top: 22px; padding: 18px; border: 1px dashed #9fcdd3; border-radius: 12px; background: #f5fbfc; cursor: pointer; }
+.uploadCard label > i { width: 55px; height: 62px; display: grid; place-items: center; border-radius: 9px; color: #fff; background: linear-gradient(145deg, #e66f50, #c9452d); font-style: normal; font-weight: 900; box-shadow: 0 9px 20px rgba(193, 69, 45, .18); }
+.uploadCard label span,
+.uploadCard label b,
+.uploadCard label em { display: block; }
+.uploadCard label b { max-width: 360px; overflow: hidden; color: #254653; font-size: 13px; text-overflow: ellipsis; white-space: nowrap; }
+.uploadCard label em { margin-top: 7px; color: #80949c; font-size: 10px; font-style: normal; }
+.uploadCard input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.uploadCard > button { width: 100%; min-height: 44px; margin-top: 14px; border: 0; border-radius: 9px; color: #fff; background: linear-gradient(135deg, #1499a8, #0a7687); font-weight: 800; cursor: pointer; }
+.uploadCard > button:disabled { opacity: .42; cursor: not-allowed; }
+.currentCard { text-align: center; }
+.fileIcon { width: 68px; height: 76px; display: grid; place-items: center; margin: 28px auto 14px; border-radius: 11px; color: #fff; background: linear-gradient(145deg, #e96f4e, #c7452d); font-size: 28px; font-weight: 900; box-shadow: 0 12px 28px rgba(193, 69, 45, .18); }
+.currentCard h2 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.currentCard dl { margin: 19px 0 0; border-top: 1px solid #e5edef; }
+.currentCard dl div { display: flex; justify-content: space-between; gap: 12px; padding: 10px 2px; border-bottom: 1px solid #eef3f4; font-size: 10px; }
+.currentCard dt { color: #81949c; }
+.currentCard dd { max-width: 190px; margin: 0; overflow: hidden; color: #35515d; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
+.ready { display: flex; align-items: center; justify-content: center; gap: 7px; margin: 15px 0 0; color: #228263; font-size: 10px; font-weight: 800; }
+.ready i { width: 7px; height: 7px; border-radius: 50%; background: #3fc28e; box-shadow: 0 0 9px #3fc28e; }
+.empty { padding-top: 12px; }
+.empty b { display: block; color: #2f4d5a; }
+.empty p { color: #82969e; font-size: 10px; line-height: 1.65; }
+.flow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 15px; }
+.flow div { display: grid; grid-template-columns: 34px 1fr; padding: 15px; border: 1px solid #dce9eb; border-radius: 12px; background: #fff; }
+.flow i { width: 26px; height: 26px; display: grid; grid-row: 1 / 3; place-items: center; border-radius: 50%; color: #fff; background: #1599a7; font-style: normal; font-weight: 900; }
+.flow b { color: #294854; font-size: 11px; }
+.flow span { margin-top: 4px; color: #83969e; font-size: 9px; }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } .flow { grid-template-columns: 1fr; } }
+.uploadList { list-style: none; margin: 14px 0 0; padding: 0; max-height: 280px; overflow: auto; }
+.uploadList li { padding: 10px 0; border-bottom: 1px solid #e3edf0; overflow-wrap: anywhere; }
+.uploadList b,.uploadList span { display: block; font-size: 12px; line-height: 1.7; }
+.uploadList span { color: #536e7c; }
+.uploadList [data-status="failed"] span { color: #aa304b; }
+.uploadList [data-status="done"] span { color: #187253; }
+.uploadList progress { width: 100%; height: 8px; accent-color: #1499a8; }
+.libraryCard { text-align: left; }
+.libraryCard p { color: #536e7c; font-size: 13px; line-height: 1.8; overflow-wrap: anywhere; }
+.libraryCard label { display: block; margin: 14px 0 6px; color: #274655; font-size: 13px; font-weight: 700; }
+.libraryCard input,.libraryCard select { display: block; width: 100%; min-width: 0; min-height: 44px; padding: 9px 11px; border: 1px solid #9fbfc8; border-radius: 8px; color: #203f4e; background: #fff; font-size: 14px; }
+.libraryActions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.libraryActions button { border: 1px solid #9fbfc8; border-radius: 8px; min-height: 44px; padding: 8px 14px; cursor: pointer; color: #175c69; background: #f0f9fa; font-weight: 700; }
+.libraryActions button:first-child { background: #117f8e; color: #fff; }
+.libraryActions button:disabled { opacity: .5; cursor: not-allowed; }
+.libraryCard .libraryHint { font-size: 12px; background: #f2f8fa; padding: 12px; border-radius: 8px; }
+.stageAnchor { margin-top: 22px; scroll-margin-top: 20px; }
+.uploadCard:focus-within label { outline: 2px solid #137f8f; outline-offset: 2px; }
+@media (max-width: 600px) { .heading { align-items: flex-start; flex-direction: column; }.uploadCard,.currentCard { padding: 17px; }.heading h1 { font-size: 23px; } }

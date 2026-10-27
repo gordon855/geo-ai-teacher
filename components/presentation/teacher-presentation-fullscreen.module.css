@@ -1,0 +1,23 @@
+.stage { position: relative; display: flex; flex-direction: column; min-height: 0; }
+.stage .viewport { flex: 1; min-height: 0; width: 100%; display: grid; place-items: center; overflow: auto; background: #020811; }
+.stage .canvas { flex: none; padding: 0; height: auto; overflow: visible; margin: 0; max-width: none; }
+.stage .controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 7px; padding: 8px; background: #092433; color: #eafaff; z-index: 10; font-size: 13px; }
+.controls button { min-height: 36px; padding: 5px 10px; border: 1px solid #427180; border-radius: 7px; color: #edfcff; background: #143b4a; cursor: pointer; }
+.controls button[aria-pressed="true"] { background: #0b706e; }
+.controls button:disabled { opacity: .4; cursor: default; }
+.caption { position: absolute; z-index: 9; left: 5%; right: 5%; bottom: 75px; max-height: 32%; overflow: auto; padding: 12px 20px; border: 1px solid #8bc6d9; border-radius: 12px; background: rgba(2,12,24,.9); color: #fff; box-shadow: 0 6px 22px #0006; overflow-wrap: anywhere; }
+.caption strong,.caption small { display: block; }
+.caption strong { font-size: clamp(20px,2.1vw,32px); line-height: 1.45; margin: 5px 0; }
+.caption p { font-size: clamp(14px,1.3vw,21px); line-height: 1.6; margin: 5px 0; }
+.caption small { font-size: 12px; color: #b8e5ec; }
+.stage:fullscreen { width: 100vw !important; height: 100vh !important; min-height: 0 !important; border: 0; border-radius: 0; background: #000; }
+.stage:fullscreen .helpBar { display: none; }
+.stage:fullscreen .viewport { width: 100vw; height: 100vh; flex: none; overflow: hidden; }
+.stage:fullscreen .controls { position: absolute; bottom: 0; left: 0; right: 0; background: rgba(2,16,27,.94); opacity: 0; transition: opacity .15s; padding: 10px; }
+.stage:fullscreen .controls:hover,.stage:fullscreen .controls:focus-within { opacity: 1; }
+.stage:fullscreen .caption { bottom: 65px; }
+@media (hover: none) { .stage:fullscreen .controls { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .stage:fullscreen .controls { transition: none; } }
+
+.fullscreenHint { position: absolute; right: 12px; top: 8px; z-index: 8; padding: 4px 8px; border-radius: 5px; background: #061624bf; color: #d5eaf5; font-size: 12px; pointer-events: none; }
+.launcher { display: inline-flex; padding: 9px 14px; margin: 8px; border: 1px solid #48b3b8; border-radius: 8px; color: #baf8ef; text-decoration: none; background: #0b3543; }

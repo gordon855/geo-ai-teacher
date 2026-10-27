@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "./v16-design.css";
+@import "./v18-design.css";
+
+:root {
+  --background: #030a16;
+  --foreground: #102239;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Segoe UI Variable", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+button,
+textarea {
+  font-family: inherit;
+}
+
+button:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 3px solid rgba(44, 207, 241, 0.38);
+  outline-offset: 2px;
+}
+
+::selection {
+  color: #062035;
+  background: #82eaff;
+}
+
+mark[data-surveying-term-highlight] {
+  padding: 0;
+  border-radius: 0.12em;
+  color: inherit;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  cursor: pointer;
+}
+
+mark[data-surveying-term-highlight="orange"] {
+  background: rgba(251, 146, 60, 0.64);
+  text-decoration: underline 2px #ea580c;
+  text-underline-offset: 2px;
+}
+
+mark[data-surveying-term-highlight="orange-red"] {
+  background: rgba(249, 115, 22, 0.7);
+  text-decoration: underline 2px #dc4b18;
+  text-underline-offset: 2px;
+}
+
+/* 21.2: luminous contours, sequential entrances, focus and reduced-motion states. */
+.v212-conversation-banner{position:relative;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 32px;color:#defcfa;background:linear-gradient(115deg,#083342,#125268);border-bottom:1px solid #4d9697}
+.v212-conversation-banner div{display:grid;gap:5px}.v212-conversation-banner span{font-size:12px;color:#bedcdd}.v212-conversation-banner a{color:#d8fffd;font-size:13px}
+html[data-motion=showcase] .v21-atmosphere svg{animation:v212MapDrift 24s ease-in-out infinite alternate;filter:drop-shadow(0 0 6px #2bb5bc55)}
+html[data-motion=showcase] .v21-atmosphere svg g{transform-origin:80% 35%;animation:v212Survey 48s linear infinite}
+html[data-motion=showcase] .v21-atmosphere .v21-aurora{filter:blur(32px);opacity:.48}
+html[data-motion=showcase] .v21-atmosphere .v21-star{animation-duration:3s}
+html[data-motion=showcase] .v212-conversation-banner{background-size:200% 200%;animation:v212Glow 12s ease-in-out infinite}
+@keyframes v212MapDrift{to{transform:translate3d(-16px,10px,0) scale(1.035)}}
+@keyframes v212Survey{to{transform:rotate(360deg)}}
+@keyframes v212Glow{50%{background-position:100% 100%}}
+html[data-motion=reduced] *,html[data-paused=true] *{animation-play-state:paused!important}
+@media(prefers-reduced-motion:reduce){.v21-atmosphere *{animation:none!important}}
+@media(max-width:760px){.v212-conversation-banner{flex-wrap:wrap;padding:12px 18px}}

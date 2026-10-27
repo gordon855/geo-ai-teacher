@@ -1,0 +1,61 @@
+{
+  "name": "geo-ai-teacher",
+  "version": "21.7.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node scripts/next-dev.mjs",
+    "build": "next build",
+    "start": "node scripts/init-demo.mjs && node scripts/step17-migrate-postgres.mjs && node scripts/step19-migrate-postgres.mjs && node scripts/step20-migrate-postgres.mjs && node scripts/step20-1-migrate-postgres.mjs && node scripts/step20-2-migrate-postgres.mjs && node scripts/step20-3-migrate-postgres.mjs && node scripts/step21-migrate-postgres.mjs && node scripts/step21-1-migrate-postgres.mjs && node scripts/step21-3-migrate-postgres.mjs && node scripts/step21-6-migrate-postgres.mjs && next start --hostname 0.0.0.0 --port 3000",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ignore-pattern .next --ignore-pattern node_modules",
+    "test": "node --experimental-strip-types --experimental-test-module-mocks --test tests/*.test.mjs",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run build",
+    "preflight": "node scripts/step17-preflight.mjs",
+    "prebuild": "node scripts/v20-map-assets.mjs",
+    "predev": "node scripts/v20-map-assets.mjs",
+    "demo:setup": "node scripts/demo-setup.mjs"
+  },
+  "dependencies": {
+    "@aiden0z/pptx-renderer": "1.2.4",
+    "@heygen/liveavatar-web-sdk": "0.0.18",
+    "@phosphor-icons/react": "^2.1.10",
+    "@pixiv/three-vrm": "3.5.5",
+    "ali-oss": "6.23.0",
+    "exceljs": "4.4.0",
+    "fflate": "0.8.3",
+    "lm-avatar-chat-sdk": "1.1.4",
+    "maplibre-gl": "6.7.0",
+    "next": "16.4.2",
+    "pg": "8.16.3",
+    "qrcode": "1.5.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "0.0.1",
+    "three": "0.185.1",
+    "undici": "7.30.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.8",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/pg": "8.15.5",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.185.4",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.4.2",
+    "react-server-dom-webpack": "19.2.8",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "uuid": "11.1.1"
+  },
+  "type": "module",
+  "license": "Apache-2.0"
+}

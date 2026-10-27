@@ -1,0 +1,19 @@
+.panel { margin: 14px 0; padding: 20px; overflow: hidden; position: relative; border: 1px solid rgba(63, 198, 220, .28); border-radius: 16px; color: #eafcff; background: radial-gradient(circle at 88% 28%, rgba(83, 220, 231, .15), transparent 18rem), linear-gradient(125deg, #071f39, #0a3b58); box-shadow: 0 18px 42px rgba(9, 43, 72, .15); }
+.panel:after { content: "弹"; position: absolute; right: 23px; top: -17px; color: rgba(121, 235, 242, .06); font-size: 126px; font-weight: 900; pointer-events: none; }
+.copy { position: relative; z-index: 1; }
+.copy span { color: #69e3ed; font: 800 8px/1 ui-monospace, monospace; letter-spacing: .12em; }
+.copy h2 { margin: 9px 0 5px; font-size: 23px; }
+.copy p { max-width: 780px; margin: 0; color: #8fb9c9; font-size: 10px; line-height: 1.7; }
+.panel form { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 190px; gap: 10px; margin-top: 15px; }
+.panel textarea { min-height: 66px; padding: 12px; resize: vertical; border: 1px solid rgba(120, 220, 233, .25); border-radius: 10px; outline: 0; color: #edfcff; background: rgba(3, 21, 35, .78); font: 12px/1.6 Arial,"Microsoft YaHei",sans-serif; }
+.panel textarea:focus { border-color: #64dce9; box-shadow: 0 0 0 3px rgba(71, 208, 227, .12); }
+.panel textarea::placeholder { color: #63899a; }
+.panel form>div { display: flex; flex-direction: column; justify-content: space-between; gap: 8px; }
+.panel small { color: #7da3b2; font-size: 9px; }
+.panel button { min-height: 40px; padding: 0 12px; border: 1px solid #55d6e5; border-radius: 9px; color: #06222d; background: linear-gradient(135deg,#8aedf3,#42cada); font-size: 10px; font-weight: 900; cursor: pointer; }
+.panel button:disabled { opacity: .46; cursor: not-allowed; }
+.notice,.error,.safety { position: relative; z-index: 1; margin: 9px 0 0; font-size: 9px; line-height: 1.55; }
+.notice { color: #81e7c5; }
+.error { color: #ffabb4; }
+.safety { color: #789cab; }
+@media(max-width:720px){.panel form{grid-template-columns:1fr}.panel form>div{align-items:stretch}.panel:after{display:none}}

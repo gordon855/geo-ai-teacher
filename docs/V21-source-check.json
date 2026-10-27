@@ -1,0 +1,69 @@
+{
+  "ppt": [
+    {
+      "file": "测绘专业英语1 .pptx",
+      "sha256": "fd02924fb5985ef4c1f635dafea7409d45a20ef046892385454fd34a828f0cf4",
+      "pages": 36
+    },
+    {
+      "file": "测绘专业英语10.pptx",
+      "sha256": "6591be8d72c9ac20b66a0dbb76a0fefce9ab2e2f56e6b8ae535e7ae359cbc233",
+      "pages": 23
+    },
+    {
+      "file": "测绘专业英语2.pptx",
+      "sha256": "40aaba754acbf7dba09a3485a3111e01d807e7b1c96b82ff3e1ce147634669a5",
+      "pages": 10
+    },
+    {
+      "file": "测绘专业英语3.pptx",
+      "sha256": "9d7a68f2b20ae59ce0b40922c0bdb4e1744bec1a8b86f751f004b66234a663ad",
+      "pages": 29
+    },
+    {
+      "file": "测绘专业英语4.1.pptx",
+      "sha256": "a7a8907f84fc4679e1bfb1ef56f100a63d1a89108d6fec72d1edb03c1598302b",
+      "pages": 15
+    },
+    {
+      "file": "测绘专业英语5.pptx",
+      "sha256": "870123eea327e406ba88c1f535874c7b14738070e25b50dc80f2d9b231f71d04",
+      "pages": 23
+    },
+    {
+      "file": "测绘专业英语7.pptx",
+      "sha256": "30b9212189b6b31106dd049441853e1d4f957a5ac75f862637cd616133885782",
+      "pages": 25
+    },
+    {
+      "file": "测绘专业英语8.pptx",
+      "sha256": "a8d45b05f3eb615356700407cc30fc623ab45fbc1392960a7f4f9bd4fdb2c1c9",
+      "pages": 21
+    },
+    {
+      "file": "测绘专业英语9.pptx",
+      "sha256": "6c412ccabb1204f21e85591f6197ef615ef911bf0f65c177ddfa4930a7f0495f",
+      "pages": 16
+    }
+  ],
+  "syllabusMatch": true,
+  "units": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    18,
+    23,
+    24,
+    27,
+    29,
+    33,
+    34,
+    36
+  ]
+}

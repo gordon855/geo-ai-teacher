@@ -1,0 +1,118 @@
+{
+  "checkedAt": "2026-10-27T07:28:29.089Z",
+  "applicationVersion": "21.7.0",
+  "environment": {
+    "Npm": "11.19.0",
+    "Node": "v24.21.0",
+    "StartedAt": "2026-10-27T06:50:22.9285024Z"
+  },
+  "commands": [
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:50:22.9508607Z",
+      "FinishedAt": "2026-10-27T06:51:26.5704945Z",
+      "Name": "npm-ci"
+    },
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:51:26.5845930Z",
+      "FinishedAt": "2026-10-27T06:51:31.9655396Z",
+      "Name": "typecheck"
+    },
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:51:31.9724492Z",
+      "FinishedAt": "2026-10-27T06:51:49.8662637Z",
+      "Name": "lint"
+    },
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:51:49.8688367Z",
+      "FinishedAt": "2026-10-27T06:52:03.6045108Z",
+      "Name": "test"
+    },
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:52:03.6230462Z",
+      "FinishedAt": "2026-10-27T06:52:19.4664073Z",
+      "Name": "build"
+    },
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:52:19.4685792Z",
+      "FinishedAt": "2026-10-27T06:52:24.4713762Z",
+      "Name": "audit-production"
+    },
+    {
+      "ExitCode": 0,
+      "StartedAt": "2026-10-27T06:52:24.4737374Z",
+      "FinishedAt": "2026-10-27T06:52:29.4057783Z",
+      "Name": "audit-all"
+    }
+  ],
+  "tests": {
+    "passed": 87,
+    "failed": 0,
+    "skipped": 0
+  },
+  "dependencyAudit": {
+    "production": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    },
+    "all": {
+      "info": 0,
+      "low": 0,
+      "moderate": 0,
+      "high": 0,
+      "critical": 0,
+      "total": 0
+    }
+  },
+  "runtime": {
+    "composeConfiguration": "passed",
+    "existingApp": "healthy",
+    "existingPostgres": "healthy",
+    "postgresVersion": "17.11",
+    "httpChecks": [
+      "teacher and two student logins against real database",
+      "frontend login pages, backend overviews and teacher-only API isolation",
+      "authenticated dashboard SSR and student-to-teacher redirect",
+      "saved translation practice survives re-login and is isolated from another student",
+      "student sees teacher PPT and stored file bytes match",
+      "grade and attendance persisted in PostgreSQL"
+    ],
+    "firstAttempt": "401: private changed-password keys were not mapped to integration variables",
+    "secondAttempt": "429: login protection active; no reset or bypass",
+    "correctedAttempt": "Passed after natural cooldown using mapped current fictional credentials",
+    "browserRerun": false,
+    "restartRerun": false
+  },
+  "dockerImageRebuild": {
+    "status": "Passed",
+    "exitCode": 0,
+    "nodeVersion": "v22.23.4",
+    "imageId": "sha256:d59e3efcd186ae5b62f638177760bce7ea9d1d611a993711c7d5a9d0c461e2c4",
+    "buildkitRecord": "1mh98xrmvp0o54r1v9lrlwr3p",
+    "logSha256": "abd783a3ad248f23bccd915eb06f576e8e3fddb822db22004e3497bc2126e1e9",
+    "productionDependencyInstallSeconds": 582.8,
+    "fullDependencyInstallSeconds": 1102.6,
+    "nextBuildSeconds": 13.3,
+    "runningContainersReplaced": false,
+    "published": false
+  },
+  "license": "Apache-2.0",
+  "copyright": "2026 郭沛高",
+  "gitHistory": "Not applicable: maintainer states original was a file copy with no history",
+  "remoteCi": "Not run; no upload authorized",
+  "publicationPerformed": false,
+  "applicationSubmitted": false,
+  "displayTimezone": "Asia/Shanghai",
+  "localConclusion": "All listed local checks passed. No new blocking finding for source-only Preview upload review. Remote CI and final maintainer publication remain manual; incomplete product/hardware and future compiled-artifact redistribution reviews remain documented.",
+  "releaseInventory": "RELEASE-FILES.json",
+  "patternScan": "SECURITY-SCAN.json"
+}

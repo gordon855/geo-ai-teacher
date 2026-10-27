@@ -1,0 +1,11 @@
+{
+  "openSourceAuditStatus": "Historical input metadata only. Hashes, counts and validation below do not describe this open source candidate. See docs/TESTING.md and docs/RELEASE-FILES.json.",
+  "version": "20.0.0",
+  "artifact": "repacked recovery",
+  "source_sha256": "cc1a2ae8ccc69d487ed71e5121701bc0992477b6fb245179ff34ee299ef16d22",
+  "units": 54,
+  "candidate_questions": 3626,
+  "automated_tests_passed": 43,
+  "production_build": "passed",
+  "public_aliyun_rendering": "not verified"
+}

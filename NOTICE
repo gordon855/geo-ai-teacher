@@ -1,0 +1,17 @@
+GeoAI Teacher
+Copyright 2026 郭沛高
+
+Project-owned code, documentation and demonstration content are licensed under
+the Apache License, Version 2.0. See LICENSE for the complete terms.
+
+Third-party components retain their own copyright and license notices. See
+THIRD-PARTY-NOTICES.md, licenses/third-party/ and the adjacent license files in
+public/vendor/. This notice does not relicense those components.
+
+Private teaching originals, book illustrations, model weights and proprietary
+media excluded from the release are not included in this project's license
+grant. Optional third-party services and trademarks retain their own terms.
+
+Ownership declarations and the reviewed release scope are recorded in
+docs/RIGHTS-CONFIRMATION.md. This NOTICE is informational and does not change
+the terms of the Apache License, Version 2.0.

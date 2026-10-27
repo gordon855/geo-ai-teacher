@@ -1,0 +1,51 @@
+{
+  "openSourceAuditStatus": "Historical input metadata only. Hashes, counts and validation below do not describe this open source candidate. See docs/TESTING.md and docs/RELEASE-FILES.json.",
+  "version": "19.0.0",
+  "base_uploaded_filename": "surveying-ai-teacher-v18.zip",
+  "base_sha256": "f73a728e77f7a900f25b4b027b891fcbaac4a6958dcfa4e0076527cb0b2edcb3",
+  "base_files": 290,
+  "missing_base_files": [],
+  "changed_base_files": [
+    "Dockerfile",
+    "README.md",
+    "app/api/classroom/auth/login/route.ts",
+    "app/api/classroom/barrage/route.ts",
+    "app/api/health/route.ts",
+    "app/api/presentation/translate/route.ts",
+    "app/legal/privacy/page.tsx",
+    "components/classroom/barrage-live-display.module.css",
+    "components/classroom/barrage-live-display.tsx",
+    "components/classroom/student-barrage-panel.tsx",
+    "components/classroom/teacher-dashboard.tsx",
+    "components/presentation/student-presentation-workspace.tsx",
+    "components/presentation/teacher-presentation-workspace.tsx",
+    "components/site-legal-footer.tsx",
+    "docker-compose.yml",
+    "lib/cloud/ai-service.mjs",
+    "lib/step8a/database.ts",
+    "package-lock.json",
+    "package.json",
+    "tests/step14-package.test.mjs"
+  ],
+  "unchanged_map_and_layout_files": [
+    "app/api/training/terrain/route.ts",
+    "app/student/terrain-3d/page.module.css",
+    "app/student/terrain-3d/page.tsx",
+    "components/training/terrain-lab.module.css",
+    "components/training/terrain-lab.tsx",
+    "components/training/terrain-map.tsx",
+    "components/v172/training-hubs.tsx",
+    "lib/step17/terrain-store.mjs"
+  ],
+  "validation": {
+    "typecheck": "pass",
+    "lint": "pass",
+    "production_build": "pass",
+    "node_tests": "30 passed",
+    "upgrade_orchestration_simulation": "7 cases passed",
+    "nginx_config_patch": "passed; actual nginx -t runs during upgrade",
+    "postgres_integration": "bundled as mandatory server-side pre-upgrade gate; not executed in build workspace",
+    "production_environment": "not accessed"
+  },
+  "preserved_original_pages_and_routes": 56
+}

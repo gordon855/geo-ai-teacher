@@ -1,0 +1,3 @@
+import pg from 'pg';
+const c=new pg.Client({connectionString:process.env.DATABASE_URL});
+try{await c.connect();await c.query('BEGIN');await c.query("DELETE FROM v19_requests WHERE created_at<now()-interval '7 months' AND NOT hold");await c.query("DELETE FROM v19_challenges WHERE expires_at<now()-interval '1 day'");await c.query("DELETE FROM v19_limits WHERE starts_at<now()-interval '2 days'");await c.query('COMMIT');console.log('7-month request retention maintained; moderation evidence and reports retained.');}catch(e){await c.query('ROLLBACK').catch(()=>{});console.error(e.message);process.exitCode=1;}finally{await c.end();}

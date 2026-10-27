@@ -1,0 +1,104 @@
+{
+  "version": "20.1",
+  "courseCode": "DEMO-GEO-217",
+  "syllabus": "GeoAI Teacher original demonstration syllabus",
+  "units": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    18,
+    23,
+    24,
+    27,
+    29,
+    33,
+    34,
+    36
+  ],
+  "pptSources": [],
+  "maxAttempts": 2,
+  "resubmissions": 1,
+  "scoreSelection": "latest_graded",
+  "rounds": [
+    {
+      "round": 1,
+      "title": "基础测量与仪器",
+      "units": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "round": 2,
+      "title": "卫星定位与摄影测量",
+      "units": [
+        15,
+        16,
+        18,
+        23,
+        24
+      ]
+    },
+    {
+      "round": 3,
+      "title": "影像处理与GIS综合应用",
+      "units": [
+        27,
+        29,
+        33,
+        34,
+        36
+      ]
+    }
+  ],
+  "gradeWeights": {
+    "homework": 10,
+    "seminar": 20,
+    "practice": 20,
+    "final_project": 50
+  },
+  "homeworkObjectiveWeights": {
+    "CO1": 70,
+    "CO2": 30
+  },
+  "blueprint": {
+    "en-zh": 7,
+    "zh-en": 7,
+    "sentence": 4,
+    "principle": 2
+  },
+  "objectives": {
+    "CO1": "核心专业词汇、术语、文体结构与技术信息",
+    "CO2": "专业阅读、翻译、技术理解与表达",
+    "CO3": "外文检索、技术跟踪与英文软件应用"
+  },
+  "otherModuleTags": {
+    "terrain": [
+      "CO3",
+      "SOFTWARE_OPERATION",
+      "CO2",
+      "TECHNICAL_EXPRESSION"
+    ],
+    "literature": [
+      "CO3",
+      "LITERATURE_RETRIEVAL",
+      "CO2",
+      "READING_COMPREHENSION"
+    ],
+    "terms": [
+      "CO1",
+      "TERM_CONTEXT"
+    ]
+  }
+}

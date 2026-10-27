@@ -1,0 +1,2 @@
+import pg from 'pg';import {readFileSync} from 'node:fs';
+const c=new pg.Client({connectionString:process.env.DATABASE_URL});try{await c.connect();await c.query('BEGIN');await c.query('SELECT pg_advisory_xact_lock(213021)');await c.query(readFileSync(new URL('../lib/step21-3/schema.sql',import.meta.url),'utf8'));await c.query('COMMIT');console.log('21.3签到数据库就绪');}catch(e){await c.query('ROLLBACK').catch(()=>{});console.error(e);process.exitCode=1;}finally{await c.end();}

@@ -1,0 +1,11 @@
+{
+  "openSourceAuditStatus": "Historical input metadata only. Hashes, counts and validation below do not describe this open source candidate. See docs/TESTING.md and docs/RELEASE-FILES.json.",
+  "version": "21.6.0",
+  "base": "21.5.0",
+  "features": [
+    "teacher LiteAvatar public/classroom launch",
+    "student anonymous messages",
+    "teacher anonymous inbox"
+  ],
+  "schema": 216
+}

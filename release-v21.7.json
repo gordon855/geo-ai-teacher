@@ -1,0 +1,38 @@
+{
+  "openSourceAuditStatus": "Historical input metadata only. Hashes, counts and validation below do not describe this open source candidate. See docs/TESTING.md and docs/RELEASE-FILES.json.",
+  "version": "21.7.0",
+  "base": "21.6.0",
+  "supportedUpgradeFrom": [
+    "21.2.0",
+    "21.3.0",
+    "21.4.0",
+    "21.5.0",
+    "21.6.0"
+  ],
+  "launcherVersion": 217,
+  "classroomInteractionVersion": 217,
+  "definitionBankVersion": 217,
+  "definitionQuestions": 68,
+  "formalUnits": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16,
+    18,
+    23,
+    24,
+    27,
+    29,
+    33,
+    34,
+    36
+  ],
+  "existingAssessments": "preserved snapshots",
+  "deployment": "not performed; follow Workbench guide",
+  "realDeviceAcceptance": "required"
+}

@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-10-27",
+  "repository": "vercel/next.js",
+  "ref": "2864b1772c37242a9b40ab4d366eb7d368c2a070",
+  "tag": "v16.4.2",
+  "method": "Compared complete local bytes with official pinned GitHub file content. A matching source is not proof of the historical copying date or author.",
+  "license": {
+    "declared": "MIT",
+    "upstreamUrl": "https://github.com/vercel/next.js/blob/2864b1772c37242a9b40ab4d366eb7d368c2a070/license.md",
+    "sha256": "ee765244e2d59f5234d474f62e0766fa0c8b99af967fdd4c0cb8dcb0c76ea224",
+    "localCopy": "licenses/third-party/next-16.4.2/license.md",
+    "byteIdenticalToInstalledNextLicense": true
+  },
+  "files": [
+    {
+      "path": "public/next.svg",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "upstreamPath": "packages/create-next-app/templates/app/ts/public/next.svg",
+      "upstreamUrl": "https://github.com/vercel/next.js/blob/2864b1772c37242a9b40ab4d366eb7d368c2a070/packages/create-next-app/templates/app/ts/public/next.svg",
+      "upstreamGitBlob": "5174b28c565c285e3e312ec5178be64fbeca8398",
+      "upstreamSha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "byteIdentical": true,
+      "difference": null
+    },
+    {
+      "path": "public/vercel.svg",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "upstreamPath": "packages/create-next-app/templates/app/ts/public/vercel.svg",
+      "upstreamUrl": "https://github.com/vercel/next.js/blob/2864b1772c37242a9b40ab4d366eb7d368c2a070/packages/create-next-app/templates/app/ts/public/vercel.svg",
+      "upstreamGitBlob": "77053960334e2e34dc584dea8019925c3b4ccca9",
+      "upstreamSha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "byteIdentical": true,
+      "difference": null
+    },
+    {
+      "path": "public/file.svg",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "upstreamPath": "packages/create-next-app/templates/app/ts/public/file.svg",
+      "upstreamUrl": "https://github.com/vercel/next.js/blob/2864b1772c37242a9b40ab4d366eb7d368c2a070/packages/create-next-app/templates/app/ts/public/file.svg",
+      "upstreamGitBlob": "004145cddf3f9db91b57b9cb596683c8eb420862",
+      "upstreamSha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "byteIdentical": true,
+      "difference": null
+    },
+    {
+      "path": "public/window.svg",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "upstreamPath": "packages/create-next-app/templates/app/ts/public/window.svg",
+      "upstreamUrl": "https://github.com/vercel/next.js/blob/2864b1772c37242a9b40ab4d366eb7d368c2a070/packages/create-next-app/templates/app/ts/public/window.svg",
+      "upstreamGitBlob": "b2b2a44f6ebc70c450043c05a002e7a93ba5d651",
+      "upstreamSha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "byteIdentical": true,
+      "difference": null
+    },
+    {
+      "path": "public/globe.svg",
+      "sha256": "bd5c76514dccc3e5e72894402040b2af242c3895f570376e4df642b754a51a3b",
+      "upstreamPath": "packages/create-next-app/templates/app/ts/public/globe.svg",
+      "upstreamUrl": "https://github.com/vercel/next.js/blob/2864b1772c37242a9b40ab4d366eb7d368c2a070/packages/create-next-app/templates/app/ts/public/globe.svg",
+      "upstreamGitBlob": "567f17b0d7c7fb662c16d4357dd74830caf2dccb",
+      "upstreamSha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "byteIdentical": false,
+      "difference": "One character: local path starts M10.27 14.2, upstream M10.27 14.1. Remaining bytes identical. Date/author of local coordinate change unknown; attribution retained."
+    }
+  ],
+  "unresolved": [
+    "Brand use/endorsement is distinct from the repository software license; do not use Next.js/Vercel marks as the GeoAI Teacher identity."
+  ],
+  "brandGuidelines": "https://vercel.com/geist/brands",
+  "faviconOwnerDeclaration": {
+    "date": "2026-10-27",
+    "path": "public/favicon.svg",
+    "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7",
+    "statement": "Personal/AI-assisted creation confirmed by maintainer"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-27",
+  "scope": "Read-only upstream and installed-source evidence, not a blanket copyright or redistribution approval.",
+  "buffers": {
+    "package": "buffers@0.1.1",
+    "dependencyChain": [
+      "exceljs@4.4.0",
+      "unzipper@0.10.14",
+      "binary@0.3.0",
+      "buffers@0.1.1"
+    ],
+    "localMetadataLicense": null,
+    "localTopLevelLicenseFile": false,
+    "originalRepositoryResponse": "substack/node-buffers contents returned 404; this does not establish absence of a license.",
+    "preservedCommit": "1b745ee35d33eb166e15ef1866073a07c6d7de87",
+    "commitAuthorClaim": "James Halliday",
+    "commitDate": "2012-04-03T09:08:58Z",
+    "signatureVerified": false,
+    "commitUrl": "https://github.com/bitpay/node-buffers/commit/1b745ee35d33eb166e15ef1866073a07c6d7de87",
+    "licenseDeclaration": "MIT/X11",
+    "declaredVersion": "0.1.1",
+    "localMain": "node_modules/buffers/index.js",
+    "mainSha256": "97801e296ba5f3c32242f647e1daac5917e300367fed7935ab1e62f40adb1b8a",
+    "mainByteIdenticalToPreservedCommit": true,
+    "assessment": "Missing package metadata supplemented by a preserved licensing commit and byte-identical main source. Keep npm lock metadata unchanged. Complete notices for any distributed bundle; this comparison does not authenticate all ancillary files or assign project ownership."
+  },
+  "openAvatarChat": {
+    "installer": "scripts/v21-1-install-oac.sh",
+    "commit": "8b7b3b45bca28ae9ab5fa72ee31bc03c5a99b08b",
+    "license": "Apache-2.0",
+    "source": "https://github.com/HumanAIGC-Engineering/OpenAvatarChat/blob/8b7b3b45bca28ae9ab5fa72ee31bc03c5a99b08b/LICENSE",
+    "scope": "Verified repository code license at the installer pin; does not clear model weights, samples, voices, likenesses, external services or authorship of local adaptations.",
+    "licenseGitBlob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+    "licenseSha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "localGenerationEvidence": {
+    "scripts": [
+      ".audit/prepare.py",
+      ".audit/demo-content-finish.py"
+    ],
+    "observed": "Scripts contain the literal demo vocabulary/sentences and geometric SVG construction used for the OSS replacements. Inspected only, not rerun; private originals preserved.",
+    "limit": "Supports how replacement content was generated in this work, not an independent legal ownership grant."
+  },
+  "additionalPackagingGaps": [
+    "lm-avatar-chat-sdk@1.1.4: ISC package declaration; no standalone LICENSE/NOTICE. Bundle includes Three.js and Google Apache headers plus embedded axios@0.21.4 metadata; lockfile-only license/security inventories do not cover every bundled component.",
+    "server-only@0.0.1: MIT declaration, no standalone license file. The installed Next compiled marker matches this package metadata; exact notice provenance must be preserved for redistribution.",
+    "Linux image @img/sharp-libvips-linux-x64@1.3.4: LGPL-3.0-or-later metadata; README lists further binary component licenses including cairo MPL-1.1, LGPL and patent-related terms; standalone full notices absent from this package.",
+    "Favicon declared personal/AI-assisted creation by maintainer. Four default SVGs match the pinned Next template; globe.svg has a recorded coordinate difference. See TEMPLATE-SVG-LICENSE-EVIDENCE.json; no general trademark grant is inferred."
+  ],
+  "initialDistribution": {
+    "confirmedByMaintainer": "2026-10-27",
+    "scope": "Source code, Docker configuration and compliant demo resources only; no model or prebuilt image distribution.",
+    "preferredProjectLicense": "Apache-2.0",
+    "projectLicenseGrant": "Apache-2.0 approved for project-owned material; LICENSE/NOTICE and root package metadata updated. Publication not authorized."
+  },
+  "noticeCollection": "THIRD-PARTY-NOTICE-FILES.json",
+  "ownerConfirmation": {
+    "date": "2026-10-27",
+    "name": "郭沛高",
+    "copyrightYear": 2026,
+    "authorship": "Personal development with AI assistance, declared by maintainer",
+    "institutionalRights": "Personal independent project; no relevant agreement, declared by maintainer",
+    "approvedProjectLicense": "Apache-2.0",
+    "favicon": "Personal/AI-assisted creation confirmed by maintainer",
+    "localAvatarAdapters": "AI-assisted development, declared by maintainer",
+    "originalGitHistory": "None; originally a file copy, declared by maintainer",
+    "publicationAuthorized": false,
+    "scope": "Project-owned code, documentation and demo content; third-party terms retained; book illustrations/private originals/models/prebuilt images excluded."
+  }
+}

@@ -1,0 +1,1 @@
+import {reconcile} from '../lib/step20-2/store.mjs';import {securityPool} from '../lib/step19/store.mjs';try{await reconcile();console.log('[v20.2] pending diagnostics processed');}catch(e){console.error(e.message);process.exitCode=1;}finally{await securityPool().end();}
